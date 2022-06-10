@@ -1,0 +1,2096 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": false,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "teafan.axyl",
+    "pixelsRounding": false,
+    "projectUuid": "cadc58df-cb40-4ffb-8716-9fbc3e6ae2a3",
+    "scaleMode": "nearest",
+    "sizeOnStartupMode": "adaptHeight",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "Subscribe to Treehouse Team on YouTube",
+    "description": "Precission Platformer where you play as Axyl, an Axolotl",
+    "author": "",
+    "windowWidth": 256,
+    "windowHeight": 176,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {
+      "android-icon-144": "assets\\img\\icons\\android-icon-144.png",
+      "android-icon-192": "assets\\img\\icons\\android-icon-192.png",
+      "android-icon-36": "assets\\img\\icons\\android-icon-36.png",
+      "android-icon-48": "assets\\img\\icons\\android-icon-48.png",
+      "android-icon-72": "android-icon-72.png",
+      "android-icon-96": "assets\\img\\icons\\android-icon-96.png",
+      "desktop-icon-512": "assets\\img\\icons\\desktop-icon-512.png",
+      "ios-icon-100": "assets\\img\\icons\\ios-icon-100.png",
+      "ios-icon-1024": "assets\\img\\icons\\ios-icon-1024.png",
+      "ios-icon-114": "assets\\img\\icons\\ios-icon-144.png",
+      "ios-icon-120": "assets\\img\\icons\\ios-icon-120.png",
+      "ios-icon-144": "assets\\img\\icons\\ios-icon-144.png",
+      "ios-icon-152": "assets\\img\\icons\\ios-icon-152.png",
+      "ios-icon-167": "assets\\img\\icons\\ios-icon-167.png",
+      "ios-icon-180": "assets\\img\\icons\\ios-icon-180.png",
+      "ios-icon-20": "assets\\img\\icons\\ios-icon-20.png",
+      "ios-icon-29": "assets\\img\\icons\\ios-icon-29.png",
+      "ios-icon-40": "assets\\img\\icons\\ios-icon-40.png",
+      "ios-icon-50": "assets\\img\\icons\\ios-icon-50.png",
+      "ios-icon-57": "assets\\img\\icons\\ios-icon-57.png",
+      "ios-icon-58": "assets\\img\\icons\\ios-icon-58.png",
+      "ios-icon-60": "assets\\img\\icons\\ios-icon-60.png",
+      "ios-icon-72": "assets\\img\\icons\\ios-icon-72.png",
+      "ios-icon-76": "assets\\img\\icons\\ios-icon-76.png",
+      "ios-icon-80": "assets\\img\\icons\\ios-icon-80.png",
+      "ios-icon-87": "assets\\img\\icons\\ios-icon-87.png",
+      "liluo-thumbnail": ""
+    },
+    "loadingScreen": {
+      "backgroundColor": 2239037,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.3,
+      "logoAndProgressLogoFadeInDelay": 0.3,
+      "minDuration": 1.6,
+      "progressBarColor": 15594210,
+      "progressBarHeight": 10,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 50,
+      "progressBarWidthPercent": 50,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "authorIds": [],
+    "categories": [],
+    "playableDevices": [
+      "keyboard",
+      "gamepad",
+      "mobile"
+    ],
+    "extensionProperties": [
+      {
+        "extension": "AdMob",
+        "property": "AdMobAppIdIos",
+        "value": ""
+      }
+    ],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/player/player1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\player\\player1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/player/player2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\player\\player2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/player/player3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\player\\player3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/player/player4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\player\\player4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/player/player7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\player\\player7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/player/player10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\player\\player10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/tiles/tetra/ground.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\tiles\\tetra\\ground.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/player/player14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\player\\player14.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/player/player13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\player\\player13.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/player/player12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\player\\player12.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/player/player15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\player\\player15.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/player/player16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\player\\player16.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/player/player17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\player\\player17.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/player/other/indicator.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\player\\other\\indicator.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/tiles/hazards/spike1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\tiles\\hazards\\spike1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/tiles/hazards/spike2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\tiles\\hazards\\spike2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/tiles/hazards/spike3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\tiles\\hazards\\spike3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/tiles/hazards/spike4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\tiles\\hazards\\spike4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/levels/bg/tutorial/layer1_stars.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\levels\\bg\\tutorial\\layer1_stars.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/levels/bg/tutorial/layer2_stars.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\levels\\bg\\tutorial\\layer2_stars.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/ui/menus/logo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\ui\\menus\\logo.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/fnt/m3x6.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\fnt\\m3x6.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "assets/fnt/m5x7.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\fnt\\m5x7.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "assets/fnt/3x6.fnt",
+        "kind": "bitmapFont",
+        "metadata": "",
+        "name": "assets\\fnt\\3x6.fnt",
+        "userAdded": true
+      },
+      {
+        "file": "assets/fnt/5x7.fnt",
+        "kind": "bitmapFont",
+        "metadata": "",
+        "name": "assets\\fnt\\5x7.fnt",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fnt/5x7_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\fnt\\5x7_0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fnt/5x7_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\fnt\\5x7_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fnt/5x7_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\fnt\\5x7_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fnt/3x6_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\fnt\\3x6_0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/ui/menus/logo_layer1_segment1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\ui\\menus\\logo_layer1_segment1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/ui/menus/logo_layer1_segment2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\ui\\menus\\logo_layer1_segment2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/sfx/ui_select.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sfx\\ui_select.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/ui/menus/logo_text.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\ui\\menus\\logo_text.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/icons/desktop-icon-512.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\icons\\desktop-icon-512.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/icons/android-icon-192.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\icons\\android-icon-192.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/icons/android-icon-144.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\icons\\android-icon-144.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/icons/android-icon-96.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\icons\\android-icon-96.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/icons/android-icon-48.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\icons\\android-icon-48.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/icons/android-icon-36.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\icons\\android-icon-36.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/icons/ios-icon-1024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\icons\\ios-icon-1024.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/icons/ios-icon-180.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\icons\\ios-icon-180.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/icons/ios-icon-167.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\icons\\ios-icon-167.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/icons/ios-icon-152.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\icons\\ios-icon-152.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/icons/ios-icon-144.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\icons\\ios-icon-144.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/icons/ios-icon-120.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\icons\\ios-icon-120.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/icons/ios-icon-100.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\icons\\ios-icon-100.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/icons/ios-icon-87.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\icons\\ios-icon-87.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/icons/ios-icon-80.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\icons\\ios-icon-80.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/icons/ios-icon-76.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\icons\\ios-icon-76.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/icons/ios-icon-72.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\icons\\ios-icon-72.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/icons/ios-icon-60.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\icons\\ios-icon-60.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/icons/ios-icon-58.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\icons\\ios-icon-58.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/icons/ios-icon-57.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\icons\\ios-icon-57.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/icons/ios-icon-50.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\icons\\ios-icon-50.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/icons/ios-icon-40.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\icons\\ios-icon-40.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/icons/ios-icon-29.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\icons\\ios-icon-29.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/icons/ios-icon-20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\icons\\ios-icon-20.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fnt/3x6_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\fnt\\3x6_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fnt/3x6_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\fnt\\3x6_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/fnt/3x5.fnt",
+        "kind": "bitmapFont",
+        "metadata": "",
+        "name": "assets\\fnt\\3x5.fnt",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fnt/3x5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\fnt\\3x5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/tiles/hazards/spike_ball1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\tiles\\hazards\\spike_ball1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/misc/cam_mask.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\misc\\cam_mask.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sfx/ost/main_theme.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sfx\\ost\\main_theme.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/ui/menus/main_button_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\ui\\menus\\main_button_0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/ui/menus/main_button_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\ui\\menus\\main_button_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/ui/dye_fg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\ui\\dye_fg.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/ui/die_fg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\ui\\die_fg.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/ui/cursor.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\ui\\cursor.png",
+        "smoothed": false,
+        "userAdded": true
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [
+    {
+      "name": "debug_list",
+      "tags": "",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Axyl:\n - x: 12000\n - y: 12000\n\nFPS: 60",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "assets\\fnt\\3x5.fnt",
+        "textureAtlasResourceName": "assets\\fnt\\3x5.png",
+        "align": "left",
+        "wordWrap": true
+      }
+    },
+    {
+      "name": "player",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "jumpCount",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "dashAtack",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "hasDied",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "AdvancedJump",
+          "type": "AdvancedJump::AdvancedJump",
+          "CoyoteTimeFrameDuration": 0.5,
+          "PlatformerBehavior": "PlatformerObject",
+          "CanCoyoteJump": false,
+          "WasInTheAir": false
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "acceleration": 1250,
+          "canGoDownFromJumpthru": false,
+          "deceleration": 1100,
+          "jumpSustainTime": 0.5,
+          "maxSpeed": 175,
+          "canGrabWithoutMoving": false,
+          "jumpSpeed": 300,
+          "ladderClimbingSpeed": 150,
+          "maxFallingSpeed": 700,
+          "canGrabPlatforms": false,
+          "gravity": 1000,
+          "ignoreDefaultControls": true,
+          "slopeMaxAngle": 60,
+          "useLegacyTrajectory": false,
+          "xGrabTolerance": 10,
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.09000000357627869,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\img\\player\\player1.png",
+                  "points": [
+                    {
+                      "name": "Indicator",
+                      "x": 6,
+                      "y": 0
+                    },
+                    {
+                      "name": "Smoke",
+                      "x": 6,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 6,
+                    "y": 6
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 3
+                      },
+                      {
+                        "x": 8,
+                        "y": 3
+                      },
+                      {
+                        "x": 8,
+                        "y": 12
+                      },
+                      {
+                        "x": 2,
+                        "y": 12
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\img\\player\\player2.png",
+                  "points": [
+                    {
+                      "name": "Indicator",
+                      "x": 6,
+                      "y": 0
+                    },
+                    {
+                      "name": "Smoke",
+                      "x": 6,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 6,
+                    "y": 6
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 3
+                      },
+                      {
+                        "x": 8,
+                        "y": 3
+                      },
+                      {
+                        "x": 8,
+                        "y": 12
+                      },
+                      {
+                        "x": 2,
+                        "y": 12
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\img\\player\\player3.png",
+                  "points": [
+                    {
+                      "name": "Indicator",
+                      "x": 6,
+                      "y": 0
+                    },
+                    {
+                      "name": "Smoke",
+                      "x": 6,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 6,
+                    "y": 6
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 3
+                      },
+                      {
+                        "x": 8,
+                        "y": 3
+                      },
+                      {
+                        "x": 8,
+                        "y": 12
+                      },
+                      {
+                        "x": 2,
+                        "y": 12
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\img\\player\\player4.png",
+                  "points": [
+                    {
+                      "name": "Indicator",
+                      "x": 6,
+                      "y": 0
+                    },
+                    {
+                      "name": "Smoke",
+                      "x": 6,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 6,
+                    "y": 6
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 3
+                      },
+                      {
+                        "x": 8,
+                        "y": 3
+                      },
+                      {
+                        "x": 8,
+                        "y": 12
+                      },
+                      {
+                        "x": 2,
+                        "y": 12
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\img\\player\\player1.png",
+                  "points": [
+                    {
+                      "name": "Indicator",
+                      "x": 6,
+                      "y": 0
+                    },
+                    {
+                      "name": "Smoke",
+                      "x": 6,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 6,
+                    "y": 6
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 3
+                      },
+                      {
+                        "x": 8,
+                        "y": 3
+                      },
+                      {
+                        "x": 8,
+                        "y": 12
+                      },
+                      {
+                        "x": 2,
+                        "y": 12
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\img\\player\\player4.png",
+                  "points": [
+                    {
+                      "name": "Indicator",
+                      "x": 6,
+                      "y": 0
+                    },
+                    {
+                      "name": "Smoke",
+                      "x": 6,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 6,
+                    "y": 6
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 3
+                      },
+                      {
+                        "x": 8,
+                        "y": 3
+                      },
+                      {
+                        "x": 8,
+                        "y": 12
+                      },
+                      {
+                        "x": 2,
+                        "y": 12
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\img\\player\\player1.png",
+                  "points": [
+                    {
+                      "name": "Indicator",
+                      "x": 6,
+                      "y": 0
+                    },
+                    {
+                      "name": "Smoke",
+                      "x": 6,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 6,
+                    "y": 6
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 3
+                      },
+                      {
+                        "x": 8,
+                        "y": 3
+                      },
+                      {
+                        "x": 8,
+                        "y": 12
+                      },
+                      {
+                        "x": 2,
+                        "y": 12
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\img\\player\\player1.png",
+                  "points": [
+                    {
+                      "name": "Indicator",
+                      "x": 6,
+                      "y": 0
+                    },
+                    {
+                      "name": "Smoke",
+                      "x": 6,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 6,
+                    "y": 6
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 3
+                      },
+                      {
+                        "x": 8,
+                        "y": 3
+                      },
+                      {
+                        "x": 8,
+                        "y": 12
+                      },
+                      {
+                        "x": 2,
+                        "y": 12
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\img\\player\\player7.png",
+                  "points": [
+                    {
+                      "name": "Indicator",
+                      "x": 6,
+                      "y": 0
+                    },
+                    {
+                      "name": "Smoke",
+                      "x": 6,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 6,
+                    "y": 6
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 3
+                      },
+                      {
+                        "x": 8,
+                        "y": 3
+                      },
+                      {
+                        "x": 8,
+                        "y": 12
+                      },
+                      {
+                        "x": 2,
+                        "y": 12
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\img\\player\\player1.png",
+                  "points": [
+                    {
+                      "name": "Indicator",
+                      "x": 6,
+                      "y": 0
+                    },
+                    {
+                      "name": "Smoke",
+                      "x": 6,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 6,
+                    "y": 6
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 3
+                      },
+                      {
+                        "x": 8,
+                        "y": 3
+                      },
+                      {
+                        "x": 8,
+                        "y": 12
+                      },
+                      {
+                        "x": 2,
+                        "y": 12
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\img\\player\\player1.png",
+                  "points": [
+                    {
+                      "name": "Indicator",
+                      "x": 6,
+                      "y": 0
+                    },
+                    {
+                      "name": "Smoke",
+                      "x": 6,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 6,
+                    "y": 6
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 3
+                      },
+                      {
+                        "x": 8,
+                        "y": 3
+                      },
+                      {
+                        "x": 8,
+                        "y": 12
+                      },
+                      {
+                        "x": 2,
+                        "y": 12
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\img\\player\\player7.png",
+                  "points": [
+                    {
+                      "name": "Indicator",
+                      "x": 6,
+                      "y": 0
+                    },
+                    {
+                      "name": "Smoke",
+                      "x": 6,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 6,
+                    "y": 6
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 3
+                      },
+                      {
+                        "x": 8,
+                        "y": 3
+                      },
+                      {
+                        "x": 8,
+                        "y": 12
+                      },
+                      {
+                        "x": 2,
+                        "y": 12
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "run",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.10000000149011612,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\img\\player\\player10.png",
+                  "points": [
+                    {
+                      "name": "Indicator",
+                      "x": 6,
+                      "y": 0
+                    },
+                    {
+                      "name": "Smoke",
+                      "x": 6,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 6,
+                    "y": 6
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 3
+                      },
+                      {
+                        "x": 8,
+                        "y": 3
+                      },
+                      {
+                        "x": 8,
+                        "y": 12
+                      },
+                      {
+                        "x": 2,
+                        "y": 12
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\img\\player\\player1.png",
+                  "points": [
+                    {
+                      "name": "Indicator",
+                      "x": 6,
+                      "y": 0
+                    },
+                    {
+                      "name": "Smoke",
+                      "x": 6,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 6,
+                    "y": 6
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 3
+                      },
+                      {
+                        "x": 8,
+                        "y": 3
+                      },
+                      {
+                        "x": 8,
+                        "y": 12
+                      },
+                      {
+                        "x": 2,
+                        "y": 12
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "crouch",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\img\\player\\player12.png",
+                  "points": [
+                    {
+                      "name": "Indicator",
+                      "x": 6,
+                      "y": 0
+                    },
+                    {
+                      "name": "Smoke",
+                      "x": 6,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 6,
+                    "y": 6
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 3
+                      },
+                      {
+                        "x": 8,
+                        "y": 3
+                      },
+                      {
+                        "x": 8,
+                        "y": 12
+                      },
+                      {
+                        "x": 2,
+                        "y": 12
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "jump",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.07500000298023224,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\img\\player\\player15.png",
+                  "points": [
+                    {
+                      "name": "Indicator",
+                      "x": 6,
+                      "y": 0
+                    },
+                    {
+                      "name": "Smoke",
+                      "x": 6,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 6,
+                    "y": 6
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 3
+                      },
+                      {
+                        "x": 8,
+                        "y": 3
+                      },
+                      {
+                        "x": 8,
+                        "y": 12
+                      },
+                      {
+                        "x": 2,
+                        "y": 12
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\img\\player\\player16.png",
+                  "points": [
+                    {
+                      "name": "Indicator",
+                      "x": 6,
+                      "y": 0
+                    },
+                    {
+                      "name": "Smoke",
+                      "x": 6,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 6,
+                    "y": 6
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 3
+                      },
+                      {
+                        "x": 8,
+                        "y": 3
+                      },
+                      {
+                        "x": 8,
+                        "y": 12
+                      },
+                      {
+                        "x": 2,
+                        "y": 12
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "fall",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.07500000298023224,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\img\\player\\player13.png",
+                  "points": [
+                    {
+                      "name": "Indicator",
+                      "x": 6,
+                      "y": 0
+                    },
+                    {
+                      "name": "Smoke",
+                      "x": 6,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 6,
+                    "y": 6
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 3
+                      },
+                      {
+                        "x": 8,
+                        "y": 3
+                      },
+                      {
+                        "x": 8,
+                        "y": 12
+                      },
+                      {
+                        "x": 2,
+                        "y": 12
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\img\\player\\player14.png",
+                  "points": [
+                    {
+                      "name": "Indicator",
+                      "x": 6,
+                      "y": 0
+                    },
+                    {
+                      "name": "Smoke",
+                      "x": 6,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 6,
+                    "y": 6
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 3
+                      },
+                      {
+                        "x": 8,
+                        "y": 3
+                      },
+                      {
+                        "x": 8,
+                        "y": 12
+                      },
+                      {
+                        "x": 2,
+                        "y": 12
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "die",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\img\\player\\player17.png",
+                  "points": [
+                    {
+                      "name": "Indicator",
+                      "x": 6,
+                      "y": 0
+                    },
+                    {
+                      "name": "Smoke",
+                      "x": 6,
+                      "y": 10
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 6,
+                    "y": 6
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 3
+                      },
+                      {
+                        "x": 8,
+                        "y": 3
+                      },
+                      {
+                        "x": 8,
+                        "y": 12
+                      },
+                      {
+                        "x": 2,
+                        "y": 12
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "player_indicator",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\player\\other\\indicator.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 3,
+                    "y": 3
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 2,
+                    "y": 2
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "additive": true,
+      "destroyWhenNoParticles": false,
+      "emitterAngleA": 0,
+      "emitterAngleB": 10,
+      "emitterForceMax": 0,
+      "emitterForceMin": 0,
+      "flow": 20,
+      "maxParticleNb": 0,
+      "name": "player_smoke1",
+      "particleAlpha1": 255,
+      "particleAlpha2": 0,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": 25,
+      "particleAngle2": 20,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 255,
+      "particleBlue2": 104,
+      "particleGravityX": 5,
+      "particleGravityY": 5,
+      "particleGreen1": 255,
+      "particleGreen2": 97,
+      "particleLifeTimeMax": 0.30000001192092896,
+      "particleLifeTimeMin": 0.125,
+      "particleRed1": 255,
+      "particleRed2": 95,
+      "particleSize1": 100,
+      "particleSize2": 0,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "rendererParam1": 2,
+      "rendererParam2": 1,
+      "rendererType": "Point",
+      "tags": "",
+      "tank": -1,
+      "textureParticleName": "",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 2,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "name": "cursor",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\ui\\cursor.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 2,
+                    "y": 2
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "objectsGroups": [
+    {
+      "name": "player_components",
+      "objects": [
+        {
+          "name": "player"
+        },
+        {
+          "name": "player_indicator"
+        },
+        {
+          "name": "player_smoke1"
+        }
+      ]
+    }
+  ],
+  "variables": [
+    {
+      "name": "input",
+      "type": "structure",
+      "children": [
+        {
+          "name": "a",
+          "type": "string",
+          "value": "z"
+        },
+        {
+          "name": "b",
+          "type": "string",
+          "value": "x"
+        },
+        {
+          "name": "cancel",
+          "type": "string",
+          "value": "Escape"
+        },
+        {
+          "name": "debug",
+          "type": "string",
+          "value": "F1"
+        },
+        {
+          "name": "down",
+          "type": "string",
+          "value": "Down"
+        },
+        {
+          "name": "left",
+          "type": "string",
+          "value": "Left"
+        },
+        {
+          "name": "right",
+          "type": "string",
+          "value": "Right"
+        },
+        {
+          "name": "select",
+          "type": "string",
+          "value": "Return"
+        },
+        {
+          "name": "up",
+          "type": "string",
+          "value": "Up"
+        }
+      ]
+    },
+    {
+      "name": "windowSize",
+      "type": "number",
+      "value": 4
+    },
+    {
+      "name": "fps",
+      "type": "number",
+      "value": 69
+    },
+    {
+      "name": "debug",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "inGame",
+      "type": "boolean",
+      "value": false
+    }
+  ],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/menu"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/teststage"
+    }
+  ],
+  "externalEvents": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/playerold"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/startup"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/tiles"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/ui"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/player"
+    }
+  ],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/mousehelper"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/gamepads"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/roombasedcameramovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/repeateveryxseconds"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/sinemovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/fps"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/parallax"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/smoothcamera"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/advancedjump"
+    }
+  ],
+  "externalLayouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/ui"
+    }
+  ],
+  "externalSourceFiles": []
+}

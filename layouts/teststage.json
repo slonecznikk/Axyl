@@ -1,0 +1,1058 @@
+{
+  "b": 24,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "testStage",
+  "name": "testStage",
+  "oglFOV": 90,
+  "oglZFar": 500,
+  "oglZNear": 1,
+  "r": 7,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 10,
+  "uiSettings": {
+    "grid": true,
+    "gridType": "rectangular",
+    "gridWidth": 8,
+    "gridHeight": 8,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 16250871,
+    "gridAlpha": 0.1,
+    "snap": true,
+    "zoomFactor": 2.0847777003288246,
+    "windowMask": false
+  },
+  "objectsGroups": [
+    {
+      "name": "solids",
+      "objects": [
+        {
+          "name": "tile1"
+        }
+      ]
+    },
+    {
+      "name": "bg",
+      "objects": [
+        {
+          "name": "bg1_layer1"
+        },
+        {
+          "name": "bg1_layer2"
+        }
+      ]
+    },
+    {
+      "name": "hazards",
+      "objects": [
+        {
+          "name": "spike"
+        },
+        {
+          "name": "spike_ball"
+        }
+      ]
+    }
+  ],
+  "variables": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 24,
+      "layer": "",
+      "locked": false,
+      "name": "tile1",
+      "persistentUuid": "ab09f329-dd07-496a-93b4-96b1eb96d354",
+      "width": 104,
+      "x": 40,
+      "y": 152,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Player",
+      "locked": false,
+      "name": "player_indicator",
+      "persistentUuid": "9b1ba841-bd99-4673-8de5-3baf10701da3",
+      "width": 0,
+      "x": 3,
+      "y": -13,
+      "zOrder": 5,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 192,
+      "layer": "BG",
+      "locked": true,
+      "name": "bg1_layer1",
+      "persistentUuid": "8d1990a9-ac74-4dbf-8990-99617c36f8b4",
+      "width": 476,
+      "x": -96,
+      "y": 0,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "player_ripple",
+      "persistentUuid": "15875341-f443-42d1-bd37-f9159cf6cf98",
+      "width": 0,
+      "x": 32,
+      "y": 88,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "BG",
+      "locked": true,
+      "name": "bg1_layer2",
+      "persistentUuid": "7fa91de7-82ac-4013-aafe-e6931d5c4ccc",
+      "width": 0,
+      "x": -100,
+      "y": 0,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "locked": false,
+      "name": "tile1",
+      "persistentUuid": "287fec66-59a8-463f-aedc-272529c888a0",
+      "width": 24,
+      "x": 16,
+      "y": 112,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Player",
+      "locked": false,
+      "name": "player",
+      "persistentUuid": "5cba49d9-d4a2-4b64-a686-a0e9c7783eb3",
+      "width": 0,
+      "x": 106,
+      "y": 138,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 96,
+      "layer": "",
+      "locked": false,
+      "name": "spike_ball",
+      "persistentUuid": "66fe984e-a44c-46b2-b03a-4d2a7ba1a5d6",
+      "width": 8,
+      "x": 184,
+      "y": 32,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 72,
+      "layer": "",
+      "locked": false,
+      "name": "spike_ball",
+      "persistentUuid": "a346c89f-7535-4227-812f-2260542a448a",
+      "width": 8,
+      "x": 136,
+      "y": 72,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": true,
+      "height": 24,
+      "layer": "",
+      "locked": false,
+      "name": "tile1",
+      "persistentUuid": "9c551db1-14d0-4b18-89c7-cc160c1afb0f",
+      "width": 40,
+      "x": 176,
+      "y": 152,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 48,
+      "layer": "",
+      "locked": false,
+      "name": "tile1",
+      "persistentUuid": "c06a2168-bfce-4819-8a46-8e631d6bc900",
+      "width": 32,
+      "x": 240,
+      "y": 128,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 24,
+      "layer": "",
+      "locked": false,
+      "name": "tile1",
+      "persistentUuid": "f39f05fc-c33a-4fcf-b088-6c800d35a05d",
+      "width": 32,
+      "x": 240,
+      "y": 48,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 200,
+      "layer": "",
+      "locked": false,
+      "name": "spike_ball",
+      "persistentUuid": "fc2fb4ad-631a-4440-8881-1dcad35660eb",
+      "width": 8,
+      "x": -24,
+      "y": -8,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 176,
+      "layer": "Debug",
+      "locked": false,
+      "name": "cam_mask",
+      "persistentUuid": "a3064573-7a05-471b-9e85-c1dbc7834e70",
+      "width": 256,
+      "x": 0,
+      "y": 0,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 176,
+      "layer": "Debug",
+      "locked": false,
+      "name": "cam_mask",
+      "persistentUuid": "6acd21e6-eaff-4bd6-9f22-2e18a775e3c2",
+      "width": 256,
+      "x": 256,
+      "y": 0,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 48,
+      "layer": "",
+      "locked": false,
+      "name": "spike_ball",
+      "persistentUuid": "cc0b8e6b-ce77-448b-9288-976ce699909e",
+      "width": 8,
+      "x": 224,
+      "y": 128,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 24,
+      "layer": "",
+      "locked": false,
+      "name": "tile1",
+      "persistentUuid": "f76d042b-4de7-4654-a06b-15924c991118",
+      "width": 24,
+      "x": 88,
+      "y": 80,
+      "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 1,
+      "layer": "",
+      "locked": false,
+      "name": "spike_ball",
+      "persistentUuid": "847b1331-7460-4cd2-9fe4-0f0b659b8a30",
+      "width": 376,
+      "x": -24,
+      "y": 191,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "height": 32,
+      "name": "tile1",
+      "tags": "",
+      "texture": "assets\\img\\tiles\\tetra\\ground.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ]
+    },
+    {
+      "height": 192,
+      "name": "bg1_layer1",
+      "tags": "",
+      "texture": "assets\\img\\levels\\bg\\tutorial\\layer1_stars.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 512,
+      "variables": [
+        {
+          "name": "offset_x",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "HorizontalTiledSpriteParallax",
+          "type": "Parallax::HorizontalTiledSpriteParallax",
+          "ParallaxFactor": 0.25,
+          "FollowedLayer": "Player"
+        },
+        {
+          "name": "VerticalTiledSpriteParallax",
+          "type": "Parallax::VerticalTiledSpriteParallax",
+          "ParallaxFactor": 0.3,
+          "FollowedLayer": ""
+        }
+      ]
+    },
+    {
+      "height": 192,
+      "name": "bg1_layer2",
+      "tags": "",
+      "texture": "assets\\img\\levels\\bg\\tutorial\\layer2_stars.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 512,
+      "variables": [
+        {
+          "name": "offset_x",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [
+        {
+          "effectType": "AdvancedBloom",
+          "name": "Effect",
+          "doubleParameters": {
+            "bloomScale": 2,
+            "blur": 8,
+            "brightness": 1,
+            "padding": 0,
+            "quality": 6,
+            "threshold": 0
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "HorizontalTiledSpriteParallax",
+          "type": "Parallax::HorizontalTiledSpriteParallax",
+          "ParallaxFactor": 0.35,
+          "FollowedLayer": ""
+        },
+        {
+          "name": "VerticalTiledSpriteParallax",
+          "type": "Parallax::VerticalTiledSpriteParallax",
+          "ParallaxFactor": 0.4,
+          "FollowedLayer": ""
+        }
+      ]
+    },
+    {
+      "name": "spike",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": true,
+      "variables": [
+        {
+          "name": "offset",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "isHazard",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\img\\tiles\\hazards\\spike2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 4,
+                    "y": 4
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 6
+                      },
+                      {
+                        "x": 7,
+                        "y": 6
+                      },
+                      {
+                        "x": 7,
+                        "y": 8
+                      },
+                      {
+                        "x": 1,
+                        "y": 8
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\img\\tiles\\hazards\\spike1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 4,
+                    "y": 4
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 6
+                      },
+                      {
+                        "x": 7,
+                        "y": 6
+                      },
+                      {
+                        "x": 7,
+                        "y": 8
+                      },
+                      {
+                        "x": 1,
+                        "y": 8
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\img\\tiles\\hazards\\spike3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 4,
+                    "y": 4
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 6
+                      },
+                      {
+                        "x": 7,
+                        "y": 6
+                      },
+                      {
+                        "x": 7,
+                        "y": 8
+                      },
+                      {
+                        "x": 1,
+                        "y": 8
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\img\\tiles\\hazards\\spike4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 4,
+                    "y": 4
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 6
+                      },
+                      {
+                        "x": 7,
+                        "y": 6
+                      },
+                      {
+                        "x": 7,
+                        "y": 8
+                      },
+                      {
+                        "x": 1,
+                        "y": 8
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "height": 8,
+      "name": "spike_ball",
+      "tags": "",
+      "texture": "assets\\img\\tiles\\hazards\\spike_ball1.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 8,
+      "variables": [
+        {
+          "folded": true,
+          "name": "isHazard",
+          "type": "boolean",
+          "value": true
+        }
+      ],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "bottomMargin": 16,
+      "height": 32,
+      "leftMargin": 16,
+      "name": "cam_mask",
+      "rightMargin": 16,
+      "tags": "",
+      "texture": "assets\\img\\misc\\cam_mask.png",
+      "tiled": false,
+      "topMargin": 16,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "bottomMargin": 8,
+      "height": 32,
+      "leftMargin": 16,
+      "name": "die_fg",
+      "rightMargin": 16,
+      "tags": "",
+      "texture": "assets\\img\\ui\\die_fg.png",
+      "tiled": true,
+      "topMargin": 8,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    }
+  ],
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "startup"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "player"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "tiles"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "ui"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "SetGlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "inGame",
+            "True"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": [
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeLayerTimeScale"
+              },
+              "parameters": [
+                "",
+                "\"Player\"",
+                "0.5"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeLayerTimeScale"
+              },
+              "parameters": [
+                "",
+                "\"\"",
+                "0.25"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ObjectVariableAsBoolean"
+          },
+          "parameters": [
+            "player",
+            "hasDied",
+            "True"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AnyKeyPressed"
+                  },
+                  "parameters": [
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Gamepads::C_Any_Button_pressed"
+                  },
+                  "parameters": [
+                    "",
+                    "1",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"testStage\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Wait"
+              },
+              "parameters": [
+                "1.5"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"testStage\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "TreehousePlayerBehaviour::IsInputTrue"
+          },
+          "parameters": [
+            "",
+            "\"Left\"",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Delete"
+          },
+          "parameters": [
+            "player",
+            "AdvancedJump"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 12,
+      "ambientLightColorG": 6037952,
+      "ambientLightColorR": 8401552,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "BG",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 32,
+      "ambientLightColorG": 0,
+      "ambientLightColorR": 0,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 100663296,
+      "ambientLightColorG": 6034128,
+      "ambientLightColorR": 7407216,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Player",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": -2147483616,
+      "ambientLightColorG": 6037952,
+      "ambientLightColorR": 9138568,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "FG",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 150995058,
+      "ambientLightColorG": 6037952,
+      "ambientLightColorR": 9287624,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Death",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Adjustment",
+          "name": "Effect",
+          "doubleParameters": {
+            "alpha": 0,
+            "blue": 1,
+            "brightness": 1,
+            "contrast": 1,
+            "gamma": 1,
+            "green": 1,
+            "red": 1,
+            "saturation": 1
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 10226368,
+      "ambientLightColorG": 6037952,
+      "ambientLightColorR": 10634400,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "UI",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 83886080,
+      "ambientLightColorG": 6037952,
+      "ambientLightColorR": 9220792,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Debug",
+      "visibility": false,
+      "cameras": [],
+      "effects": []
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "AdvancedJump",
+      "type": "AdvancedJump::AdvancedJump"
+    },
+    {
+      "name": "HorizontalTiledSpriteParallax",
+      "type": "Parallax::HorizontalTiledSpriteParallax"
+    },
+    {
+      "name": "Platform",
+      "type": "PlatformBehavior::PlatformBehavior"
+    },
+    {
+      "name": "PlatformerObject",
+      "type": "PlatformBehavior::PlatformerObjectBehavior"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
+    },
+    {
+      "name": "VerticalTiledSpriteParallax",
+      "type": "Parallax::VerticalTiledSpriteParallax"
+    }
+  ]
+}

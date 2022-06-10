@@ -1,0 +1,51 @@
+{
+  "associatedLayout": "testStage",
+  "name": "ui",
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 80,
+      "layer": "Debug",
+      "locked": false,
+      "name": "debug_list",
+      "persistentUuid": "ffc16b19-e66d-4a87-b092-8abae0f17ac0",
+      "width": 52,
+      "x": 4,
+      "y": -2,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 176,
+      "layer": "UI",
+      "locked": false,
+      "name": "die_fg",
+      "persistentUuid": "295d4a5c-f5a4-470b-986d-1ef48ed81aef",
+      "width": 272,
+      "x": -272,
+      "y": 0,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "editionSettings": {
+    "grid": true,
+    "gridType": "rectangular",
+    "gridWidth": 8,
+    "gridHeight": 8,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.2,
+    "snap": true,
+    "zoomFactor": 1.7600000000000007,
+    "windowMask": false
+  }
+}

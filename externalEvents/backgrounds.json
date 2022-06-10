@@ -1,0 +1,19 @@
+{
+  "associatedLayout": "stage1",
+  "lastChangeTimeStamp": 0,
+  "name": "backgrounds",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
+    }
+  ]
+}

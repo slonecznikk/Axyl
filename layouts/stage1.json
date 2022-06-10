@@ -1,0 +1,930 @@
+{
+  "b": 24,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "stage1",
+  "name": "stage1",
+  "oglFOV": 90,
+  "oglZFar": 500,
+  "oglZNear": 1,
+  "r": 7,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 10,
+  "uiSettings": {
+    "grid": true,
+    "gridType": "rectangular",
+    "gridWidth": 2,
+    "gridHeight": 2,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 16250871,
+    "gridAlpha": 0.1,
+    "snap": true,
+    "zoomFactor": 2.544777700328825,
+    "windowMask": false
+  },
+  "objectsGroups": [
+    {
+      "name": "solids",
+      "objects": [
+        {
+          "name": "tile1"
+        }
+      ]
+    },
+    {
+      "name": "player_components",
+      "objects": []
+    },
+    {
+      "name": "bg",
+      "objects": [
+        {
+          "name": "bg1_layer1"
+        },
+        {
+          "name": "bg1_layer2"
+        }
+      ]
+    },
+    {
+      "name": "hazards",
+      "objects": [
+        {
+          "name": "spike"
+        },
+        {
+          "name": "spike_ball"
+        }
+      ]
+    }
+  ],
+  "variables": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 20,
+      "layer": "",
+      "locked": false,
+      "name": "tile1",
+      "persistentUuid": "ab09f329-dd07-496a-93b4-96b1eb96d354",
+      "width": 364,
+      "x": 92,
+      "y": 140,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Player",
+      "locked": false,
+      "name": "indicator",
+      "persistentUuid": "9b1ba841-bd99-4673-8de5-3baf10701da3",
+      "width": 0,
+      "x": 2,
+      "y": 0,
+      "zOrder": 5,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 192,
+      "layer": "BG",
+      "locked": true,
+      "name": "bg1_layer1",
+      "persistentUuid": "8d1990a9-ac74-4dbf-8990-99617c36f8b4",
+      "width": 476,
+      "x": -96,
+      "y": 0,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "player_ripple",
+      "persistentUuid": "15875341-f443-42d1-bd37-f9159cf6cf98",
+      "width": 0,
+      "x": 32,
+      "y": 96,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "BG",
+      "locked": true,
+      "name": "bg1_layer2",
+      "persistentUuid": "7fa91de7-82ac-4013-aafe-e6931d5c4ccc",
+      "width": 0,
+      "x": -100,
+      "y": 0,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 8,
+      "layer": "",
+      "locked": false,
+      "name": "tile1",
+      "persistentUuid": "4fd25a41-fcaf-4302-ac1c-40d2a3f413fc",
+      "width": 8,
+      "x": 172,
+      "y": 120,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 8,
+      "layer": "",
+      "locked": false,
+      "name": "tile1",
+      "persistentUuid": "e58f6416-5d0e-48b3-9659-0e61c7542376",
+      "width": 8,
+      "x": 268,
+      "y": 88,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "spike",
+      "persistentUuid": "a02f043b-f439-4ec6-aebb-439a1e3136f1",
+      "width": 0,
+      "x": 176,
+      "y": 116,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "spike",
+      "persistentUuid": "dccded1e-f855-4476-a4ce-4762bcbbe6d2",
+      "width": 0,
+      "x": 272,
+      "y": 84,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "isHazard",
+          "type": "boolean",
+          "value": true
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 116,
+      "layer": "",
+      "locked": false,
+      "name": "tile1",
+      "persistentUuid": "287fec66-59a8-463f-aedc-272529c888a0",
+      "width": 80,
+      "x": 12,
+      "y": 44,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 12,
+      "layer": "",
+      "locked": false,
+      "name": "spike_ball",
+      "persistentUuid": "6c749103-26ac-4ff3-b485-9adae6690c9b",
+      "width": 64,
+      "x": 186,
+      "y": 4,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 40,
+      "layer": "",
+      "locked": false,
+      "name": "spike_ball",
+      "persistentUuid": "bd4651c2-3119-4aa7-8b94-e8cac9593035",
+      "width": 12,
+      "x": 218,
+      "y": 94,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 8,
+      "layer": "",
+      "locked": false,
+      "name": "tile1",
+      "persistentUuid": "0355a05c-6f1e-406a-951c-1458cd449486",
+      "width": 8,
+      "x": 92,
+      "y": 44,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Player",
+      "locked": false,
+      "name": "player",
+      "persistentUuid": "5cba49d9-d4a2-4b64-a686-a0e9c7783eb3",
+      "width": 0,
+      "x": 54,
+      "y": 24,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "player_smoke1",
+      "persistentUuid": "81aadeb2-a63d-4f61-aaf9-067b54a0609c",
+      "width": 0,
+      "x": -158,
+      "y": 68,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "height": 32,
+      "name": "tile1",
+      "tags": "",
+      "texture": "assets\\img\\tiles\\tetra\\ground.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ]
+    },
+    {
+      "name": "indicator",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\player\\other\\indicator.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 3,
+                    "y": 3
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 2,
+                    "y": 2
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "height": 192,
+      "name": "bg1_layer1",
+      "tags": "",
+      "texture": "assets\\img\\levels\\bg\\tutorial\\layer1_stars.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 512,
+      "variables": [
+        {
+          "name": "offset_x",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "HorizontalTiledSpriteParallax",
+          "type": "Parallax::HorizontalTiledSpriteParallax",
+          "ParallaxFactor": 0.25,
+          "FollowedLayer": ""
+        }
+      ]
+    },
+    {
+      "height": 192,
+      "name": "bg1_layer2",
+      "tags": "",
+      "texture": "assets\\img\\levels\\bg\\tutorial\\layer2_stars.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 512,
+      "variables": [
+        {
+          "name": "offset_x",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [
+        {
+          "effectType": "AdvancedBloom",
+          "name": "Effect",
+          "doubleParameters": {
+            "bloomScale": 2,
+            "blur": 9,
+            "brightness": 1,
+            "padding": 0,
+            "quality": 6,
+            "threshold": 0
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "HorizontalTiledSpriteParallax",
+          "type": "Parallax::HorizontalTiledSpriteParallax",
+          "ParallaxFactor": 0.35,
+          "FollowedLayer": ""
+        }
+      ]
+    },
+    {
+      "additive": true,
+      "destroyWhenNoParticles": false,
+      "emitterAngleA": 0,
+      "emitterAngleB": 10,
+      "emitterForceMax": 0,
+      "emitterForceMin": 0,
+      "flow": 20,
+      "maxParticleNb": 0,
+      "name": "player_smoke1",
+      "particleAlpha1": 255,
+      "particleAlpha2": 0,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": 25,
+      "particleAngle2": 20,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 255,
+      "particleBlue2": 104,
+      "particleGravityX": 5,
+      "particleGravityY": 5,
+      "particleGreen1": 255,
+      "particleGreen2": 97,
+      "particleLifeTimeMax": 0.30000001192092896,
+      "particleLifeTimeMin": 0.125,
+      "particleRed1": 255,
+      "particleRed2": 95,
+      "particleSize1": 100,
+      "particleSize2": 0,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "rendererParam1": 2,
+      "rendererParam2": 1,
+      "rendererType": "Point",
+      "tags": "",
+      "tank": -1,
+      "textureParticleName": "",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 2,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "name": "spike",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": true,
+      "variables": [
+        {
+          "name": "isHazard",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\tiles\\hazards\\spike2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 4,
+                    "y": 4
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\tiles\\hazards\\spike1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 4,
+                    "y": 4
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\tiles\\hazards\\spike3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 4,
+                    "y": 4
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "fade",
+      "tags": "",
+      "type": "PrimitiveDrawing::Drawer",
+      "variables": [
+        {
+          "name": "opacity",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "fillOpacity": 255,
+      "outlineSize": 1,
+      "outlineOpacity": 255,
+      "fillColor": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "outlineColor": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "absoluteCoordinates": false,
+      "clearBetweenFrames": true
+    },
+    {
+      "name": "gameover_text",
+      "tags": "",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "SineMovement",
+          "type": "SineMovement::SineMovement",
+          "HorizontalSpeed": 0,
+          "VerticalSpeed": 60,
+          "HorizontalDistance": 0,
+          "VerticalDistance": 5,
+          "CenterPointX": 0,
+          "CenterPointY": 0,
+          "SineProgressX": 0,
+          "SineProgressY": 0
+        }
+      ],
+      "content": {
+        "text": "Press [BUTTON]",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "assets\\fnt\\3x6.fnt",
+        "textureAtlasResourceName": "assets\\fnt\\3x6_0.png",
+        "align": "center",
+        "wordWrap": false
+      }
+    },
+    {
+      "bottomMargin": 4,
+      "height": 12,
+      "leftMargin": 4,
+      "name": "spike_ball",
+      "rightMargin": 4,
+      "tags": "",
+      "texture": "assets\\img\\tiles\\hazards\\spike_ball1.png",
+      "tiled": true,
+      "topMargin": 4,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 12,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    }
+  ],
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "startup"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "player"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "tiles"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "ui"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeLayerTimeScale"
+              },
+              "parameters": [
+                "",
+                "\"Player\"",
+                "0.25"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeLayerTimeScale"
+              },
+              "parameters": [
+                "",
+                "\"\"",
+                "0.25"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "VarObjet"
+          },
+          "parameters": [
+            "fade",
+            "opacity",
+            ">=",
+            "160"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "KeyFromTextReleased"
+          },
+          "parameters": [
+            "",
+            "GlobalVariableString(input.select)"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"stage1\"",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 12,
+      "ambientLightColorG": 6037952,
+      "ambientLightColorR": 8401552,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "BG",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 32,
+      "ambientLightColorG": 0,
+      "ambientLightColorR": 0,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 100663296,
+      "ambientLightColorG": 6034128,
+      "ambientLightColorR": 7407216,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Player",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": -2147483616,
+      "ambientLightColorG": 6037952,
+      "ambientLightColorR": 9138568,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "FG",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 150995058,
+      "ambientLightColorG": 6037952,
+      "ambientLightColorR": 9287624,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Death",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "AdvancedBloom",
+          "name": "Effect",
+          "doubleParameters": {
+            "bloomScale": 2,
+            "blur": 5,
+            "brightness": 1.2,
+            "padding": 0,
+            "quality": 6,
+            "threshold": 0.5
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Adjustment",
+          "name": "Effect2",
+          "doubleParameters": {
+            "alpha": 1,
+            "blue": 1,
+            "brightness": 1,
+            "contrast": 1,
+            "gamma": 1,
+            "green": 1,
+            "red": 1,
+            "saturation": 1
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 10226368,
+      "ambientLightColorG": 6037952,
+      "ambientLightColorR": 10634400,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "UI",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 83886080,
+      "ambientLightColorG": 6037952,
+      "ambientLightColorR": 9220792,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Debug",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "AdvancedJump",
+      "type": "AdvancedJump::AdvancedJump"
+    },
+    {
+      "name": "HorizontalTiledSpriteParallax",
+      "type": "Parallax::HorizontalTiledSpriteParallax"
+    },
+    {
+      "name": "Platform",
+      "type": "PlatformBehavior::PlatformBehavior"
+    },
+    {
+      "name": "PlatformerObject",
+      "type": "PlatformBehavior::PlatformerObjectBehavior"
+    },
+    {
+      "name": "SineMovement",
+      "type": "SineMovement::SineMovement"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
+    }
+  ]
+}
