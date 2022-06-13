@@ -21,7 +21,7 @@
     "gridColor": 16250871,
     "gridAlpha": 0.1,
     "snap": true,
-    "zoomFactor": 2.0847777003288246,
+    "zoomFactor": 2.2047777003288247,
     "windowMask": false
   },
   "objectsGroups": [
@@ -274,38 +274,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 176,
-      "layer": "Debug",
-      "locked": false,
-      "name": "cam_mask",
-      "persistentUuid": "a3064573-7a05-471b-9e85-c1dbc7834e70",
-      "width": 256,
-      "x": 0,
-      "y": 0,
-      "zOrder": 25,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 176,
-      "layer": "Debug",
-      "locked": false,
-      "name": "cam_mask",
-      "persistentUuid": "6acd21e6-eaff-4bd6-9f22-2e18a775e3c2",
-      "width": 256,
-      "x": 256,
-      "y": 0,
-      "zOrder": 25,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "height": 48,
       "layer": "",
       "locked": false,
@@ -350,28 +318,25 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "tile1",
+      "persistentUuid": "d1aa2f31-b3bb-4c0f-bb6f-93a6ec7516b3",
+      "width": 0,
+      "x": 320,
+      "y": 144,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
-    {
-      "height": 32,
-      "name": "tile1",
-      "tags": "",
-      "texture": "assets\\img\\tiles\\tetra\\ground.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior",
-          "canBeGrabbed": true,
-          "platformType": "NormalPlatform",
-          "yGrabOffset": 0
-        }
-      ]
-    },
     {
       "height": 192,
       "name": "bg1_layer1",
@@ -654,38 +619,6 @@
       ],
       "effects": [],
       "behaviors": []
-    },
-    {
-      "bottomMargin": 16,
-      "height": 32,
-      "leftMargin": 16,
-      "name": "cam_mask",
-      "rightMargin": 16,
-      "tags": "",
-      "texture": "assets\\img\\misc\\cam_mask.png",
-      "tiled": false,
-      "topMargin": 16,
-      "type": "PanelSpriteObject::PanelSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "bottomMargin": 8,
-      "height": 32,
-      "leftMargin": 16,
-      "name": "die_fg",
-      "rightMargin": 16,
-      "tags": "",
-      "texture": "assets\\img\\ui\\die_fg.png",
-      "tiled": true,
-      "topMargin": 8,
-      "type": "PanelSpriteObject::PanelSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
     }
   ],
   "events": [
@@ -778,148 +711,6 @@
           "events": []
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "ObjectVariableAsBoolean"
-          },
-          "parameters": [
-            "player",
-            "hasDied",
-            "True"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "Wait"
-          },
-          "parameters": [
-            "1"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::Or"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "AnyKeyPressed"
-                  },
-                  "parameters": [
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Gamepads::C_Any_Button_pressed"
-                  },
-                  "parameters": [
-                    "",
-                    "1",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"testStage\"",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Wait"
-              },
-              "parameters": [
-                "1.5"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"testStage\"",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "TreehousePlayerBehaviour::IsInputTrue"
-          },
-          "parameters": [
-            "",
-            "\"Left\"",
-            ""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "Delete"
-          },
-          "parameters": [
-            "player",
-            "AdvancedJump"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
     }
   ],
   "layers": [

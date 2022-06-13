@@ -54,30 +54,6 @@
                     "CameraX(Object.Behavior::PropertyFollowedLayer(), 0) * Object.Behavior::PropertyParallaxFactor()"
                   ],
                   "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreX"
-                  },
-                  "parameters": [
-                    "Object",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TiledSpriteObject::Width"
-                  },
-                  "parameters": [
-                    "Object",
-                    "=",
-                    "CameraWidth(Object.Layer(), 0)"
-                  ],
-                  "subInstructions": []
                 }
               ],
               "events": []

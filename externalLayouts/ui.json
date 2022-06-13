@@ -25,11 +25,11 @@
       "layer": "UI",
       "locked": false,
       "name": "die_fg",
-      "persistentUuid": "295d4a5c-f5a4-470b-986d-1ef48ed81aef",
+      "persistentUuid": "6b670bef-a451-47cc-ba22-7c4aa70c28b8",
       "width": 272,
       "x": -272,
       "y": 0,
-      "zOrder": 27,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []

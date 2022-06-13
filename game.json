@@ -704,6 +704,87 @@
         "name": "assets\\img\\ui\\cursor.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/levels/bg/z1_sunset_forest/layer9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\levels\\bg\\z1_sunset_forest\\layer9.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/levels/bg/z1_sunset_forest/layer8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\levels\\bg\\z1_sunset_forest\\layer8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/levels/bg/z1_sunset_forest/layer7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\levels\\bg\\z1_sunset_forest\\layer7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/levels/bg/z1_sunset_forest/layer6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\levels\\bg\\z1_sunset_forest\\layer6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/levels/bg/z1_sunset_forest/layer5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\levels\\bg\\z1_sunset_forest\\layer5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/levels/bg/z1_sunset_forest/layer1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\levels\\bg\\z1_sunset_forest\\layer1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/levels/bg/z1_sunset_forest/layer4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\levels\\bg\\z1_sunset_forest\\layer4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/levels/bg/z1_sunset_forest/layer3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\levels\\bg\\z1_sunset_forest\\layer3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/levels/bg/z1_sunset_forest/layer2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\levels\\bg\\z1_sunset_forest\\layer2.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -748,6 +829,18 @@
           "name": "hasDied",
           "type": "boolean",
           "value": false
+        },
+        {
+          "folded": true,
+          "name": "startX",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "startY",
+          "type": "number",
+          "value": 0
         }
       ],
       "effects": [],
@@ -1924,6 +2017,62 @@
           ]
         }
       ]
+    },
+    {
+      "height": 32,
+      "name": "tile1",
+      "tags": "",
+      "texture": "assets\\img\\tiles\\tetra\\ground.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ]
+    },
+    {
+      "bottomMargin": 16,
+      "height": 32,
+      "leftMargin": 16,
+      "name": "cam_mask",
+      "rightMargin": 16,
+      "tags": "",
+      "texture": "assets\\img\\misc\\cam_mask.png",
+      "tiled": false,
+      "topMargin": 16,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "bottomMargin": 8,
+      "height": 192,
+      "leftMargin": 16,
+      "name": "die_fg",
+      "rightMargin": 16,
+      "tags": "",
+      "texture": "assets\\img\\ui\\die_fg.png",
+      "tiled": true,
+      "topMargin": 8,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 256,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
     }
   ],
   "objectsGroups": [
@@ -1950,7 +2099,7 @@
         {
           "name": "a",
           "type": "string",
-          "value": "z"
+          "value": "LShift"
         },
         {
           "name": "b",
@@ -1985,7 +2134,7 @@
         {
           "name": "select",
           "type": "string",
-          "value": "Return"
+          "value": "Space"
         },
         {
           "name": "up",
@@ -1997,7 +2146,7 @@
     {
       "name": "windowSize",
       "type": "number",
-      "value": 4
+      "value": 3
     },
     {
       "name": "fps",
@@ -2024,6 +2173,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/teststage"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/zone1"
     }
   ],
   "externalEvents": [
