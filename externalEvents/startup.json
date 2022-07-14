@@ -1,0 +1,79 @@
+{
+  "associatedLayout": "test",
+  "lastChangeTimeStamp": 0,
+  "name": "StartUp",
+  "events": [
+    {
+      "folded": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetWindowSize"
+          },
+          "parameters": [
+            "",
+            "SceneWindowWidth() * GlobalVariable(WindowSize)",
+            "SceneWindowHeight() * GlobalVariable(WindowSize)",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AdvancedWindow::SetMaximizable"
+          },
+          "parameters": [
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AdvancedWindow::SetResizable"
+          },
+          "parameters": [
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AdvancedWindow::SetFullScreenable"
+          },
+          "parameters": [
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "CenterWindow"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": "var windowSize = 5;\n\ngdjs.evtTools.window.setWindowSize( runtimeScene, runtimeScene.getGame().getOriginalWidth() * windowSize, runtimeScene.getGame().getOriginalHeight() * windowSize, false )\n\ngdjs.evtTools.window.centerWindow( runtimeScene )",
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": true
+        }
+      ]
+    }
+  ]
+}

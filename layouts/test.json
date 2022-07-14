@@ -1,0 +1,2073 @@
+{
+  "b": 0,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "test",
+  "name": "test",
+  "oglFOV": 90,
+  "oglZFar": 500,
+  "oglZNear": 1,
+  "r": 0,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 0,
+  "uiSettings": {
+    "grid": true,
+    "gridType": "rectangular",
+    "gridWidth": 4,
+    "gridHeight": 4,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 0,
+    "gridAlpha": 0.5,
+    "snap": true,
+    "zoomFactor": 2.9200000000000044,
+    "windowMask": false
+  },
+  "objectsGroups": [
+    {
+      "name": "HUDPause",
+      "objects": []
+    },
+    {
+      "name": "HUD",
+      "objects": [
+        {
+          "name": "HUD_Background"
+        },
+        {
+          "name": "HUD_SpeedrunTimer"
+        },
+        {
+          "name": "HUD_SunflowerAmount"
+        }
+      ]
+    },
+    {
+      "name": "BackgroundLayers",
+      "objects": [
+        {
+          "name": "BG_LilyLandscape_L0"
+        },
+        {
+          "name": "BG_LilyLandscape_L1"
+        },
+        {
+          "name": "BG_LilyLandscape_L2"
+        },
+        {
+          "name": "BG_LilyLandscape_L3"
+        },
+        {
+          "name": "BG_LilyLandscape_L4"
+        },
+        {
+          "name": "BG_LilyLandscape_L5"
+        },
+        {
+          "name": "BG_LilyLandscape_L6"
+        }
+      ]
+    },
+    {
+      "name": "Solid",
+      "objects": [
+        {
+          "name": "D_Collision"
+        }
+      ]
+    },
+    {
+      "name": "Debug",
+      "objects": [
+        {
+          "name": "D_Collision"
+        },
+        {
+          "name": "D_Grid"
+        }
+      ]
+    }
+  ],
+  "variables": [
+    {
+      "folded": true,
+      "name": "Variable",
+      "type": "string",
+      "value": ""
+    }
+  ],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Player",
+      "locked": false,
+      "name": "Player",
+      "persistentUuid": "b9edd250-f8a9-4c2c-9d47-3df0bb7d906d",
+      "width": 0,
+      "x": 64,
+      "y": 80,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "locked": false,
+      "name": "D_Collision",
+      "persistentUuid": "1e591e9c-e228-4e37-b4da-93ea0f8bc10a",
+      "width": 480,
+      "x": 16,
+      "y": 120,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 12,
+      "layer": "",
+      "locked": false,
+      "name": "IGM_Spike",
+      "persistentUuid": "16949520-3bb2-4439-a910-65c7a2181317",
+      "width": 60,
+      "x": 132,
+      "y": 108,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Active",
+      "locked": false,
+      "name": "IGM_GoldSunflower",
+      "persistentUuid": "86c02f6d-6185-43ae-8174-49cd2903f99f",
+      "width": 0,
+      "x": 248,
+      "y": 88,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "HUD",
+      "locked": false,
+      "name": "HUD_Fade",
+      "persistentUuid": "53b8fd28-572f-4b82-962e-87ce80d8145b",
+      "width": 32,
+      "x": 0,
+      "y": 0,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "name": "Player",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "JumpCount",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "AdvancedJump",
+          "type": "AdvancedJump::AdvancedJump",
+          "CoyoteTimeFrameDuration": 0,
+          "PlatformerBehavior": "PlatformerObject",
+          "CanCoyoteJump": false,
+          "WasInTheAir": false
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "jumpSpeed": 300,
+          "maxSpeed": 200,
+          "slopeMaxAngle": 60,
+          "acceleration": 1500,
+          "canGoDownFromJumpthru": false,
+          "canGrabWithoutMoving": true,
+          "deceleration": 1500,
+          "canGrabPlatforms": false,
+          "gravity": 1000,
+          "ignoreDefaultControls": true,
+          "jumpSustainTime": 0.2,
+          "ladderClimbingSpeed": 150,
+          "maxFallingSpeed": 700,
+          "useLegacyTrajectory": false,
+          "xGrabTolerance": 10,
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.15000000596046448,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\img\\player\\axyl_idle0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 12,
+                    "y": 12
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 9
+                      },
+                      {
+                        "x": 16,
+                        "y": 9
+                      },
+                      {
+                        "x": 16,
+                        "y": 21
+                      },
+                      {
+                        "x": 9,
+                        "y": 21
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\img\\player\\axyl_idle0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 12,
+                    "y": 12
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 9
+                      },
+                      {
+                        "x": 16,
+                        "y": 9
+                      },
+                      {
+                        "x": 16,
+                        "y": 21
+                      },
+                      {
+                        "x": 9,
+                        "y": 21
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\img\\player\\axyl_idle0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 12,
+                    "y": 12
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 9
+                      },
+                      {
+                        "x": 16,
+                        "y": 9
+                      },
+                      {
+                        "x": 16,
+                        "y": 21
+                      },
+                      {
+                        "x": 9,
+                        "y": 21
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\img\\player\\axyl_idle0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 12,
+                    "y": 12
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 9
+                      },
+                      {
+                        "x": 16,
+                        "y": 9
+                      },
+                      {
+                        "x": 16,
+                        "y": 21
+                      },
+                      {
+                        "x": 9,
+                        "y": 21
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\img\\player\\axyl_idle0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 12,
+                    "y": 12
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 9
+                      },
+                      {
+                        "x": 16,
+                        "y": 9
+                      },
+                      {
+                        "x": 16,
+                        "y": 21
+                      },
+                      {
+                        "x": 9,
+                        "y": 21
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\img\\player\\axyl_idle1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 12,
+                    "y": 12
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 9
+                      },
+                      {
+                        "x": 16,
+                        "y": 9
+                      },
+                      {
+                        "x": 16,
+                        "y": 21
+                      },
+                      {
+                        "x": 9,
+                        "y": 21
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\img\\player\\axyl_idle2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 12,
+                    "y": 12
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 9
+                      },
+                      {
+                        "x": 16,
+                        "y": 9
+                      },
+                      {
+                        "x": 16,
+                        "y": 21
+                      },
+                      {
+                        "x": 9,
+                        "y": 21
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\img\\player\\axyl_idle3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 12,
+                    "y": 12
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 9
+                      },
+                      {
+                        "x": 16,
+                        "y": 9
+                      },
+                      {
+                        "x": 16,
+                        "y": 21
+                      },
+                      {
+                        "x": 9,
+                        "y": 21
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.05000000074505806,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\img\\player\\axyl_run0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 12,
+                    "y": 12
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 7
+                      },
+                      {
+                        "x": 17,
+                        "y": 7
+                      },
+                      {
+                        "x": 17,
+                        "y": 21
+                      },
+                      {
+                        "x": 10,
+                        "y": 21
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\img\\player\\axyl_run1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 12,
+                    "y": 12
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 7
+                      },
+                      {
+                        "x": 17,
+                        "y": 7
+                      },
+                      {
+                        "x": 17,
+                        "y": 21
+                      },
+                      {
+                        "x": 10,
+                        "y": 21
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\img\\player\\axyl_run2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 12,
+                    "y": 12
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 9
+                      },
+                      {
+                        "x": 17,
+                        "y": 9
+                      },
+                      {
+                        "x": 17,
+                        "y": 21
+                      },
+                      {
+                        "x": 10,
+                        "y": 21
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\img\\player\\axyl_run3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 12,
+                    "y": 12
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 9
+                      },
+                      {
+                        "x": 17,
+                        "y": 9
+                      },
+                      {
+                        "x": 17,
+                        "y": 21
+                      },
+                      {
+                        "x": 10,
+                        "y": 21
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\img\\player\\axyl_crouch0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 12,
+                    "y": 12
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 10
+                      },
+                      {
+                        "x": 16,
+                        "y": 10
+                      },
+                      {
+                        "x": 16,
+                        "y": 21
+                      },
+                      {
+                        "x": 9,
+                        "y": 21
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\img\\player\\axyl_jump0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 12,
+                    "y": 12
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 9
+                      },
+                      {
+                        "x": 16,
+                        "y": 9
+                      },
+                      {
+                        "x": 16,
+                        "y": 21
+                      },
+                      {
+                        "x": 9,
+                        "y": 21
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\img\\player\\axyl_fall0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 12,
+                    "y": 12
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 9
+                      },
+                      {
+                        "x": 16,
+                        "y": 9
+                      },
+                      {
+                        "x": 16,
+                        "y": 21
+                      },
+                      {
+                        "x": 9,
+                        "y": 21
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.10000000149011612,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\player\\axyl_ghost0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 12,
+                    "y": 12
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\player\\axyl_ghost1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 12,
+                    "y": 12
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\player\\axyl_ghost2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 12,
+                    "y": 12
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\player\\axyl_ghost3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 12,
+                    "y": 12
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\player\\axyl_ghost4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 12,
+                    "y": 12
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\player\\axyl_ghost3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 12,
+                    "y": 12
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\player\\axyl_ghost2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 12,
+                    "y": 12
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\player\\axyl_ghost1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 12,
+                    "y": 12
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "D_Collision",
+      "tags": "",
+      "texture": "assets\\placeholder-1.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "HUD_Background",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\ui\\game\\ui_noSpeedrunRecord1.png",
+                  "points": [
+                    {
+                      "name": "speedrunCounter",
+                      "x": 30,
+                      "y": 6
+                    },
+                    {
+                      "name": "sunflowerCounter",
+                      "x": 15,
+                      "y": 4
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 48,
+                    "y": 16
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\ui\\game\\ui_noSpeedrunRecord2.png",
+                  "points": [
+                    {
+                      "name": "speedrunCounter",
+                      "x": 30,
+                      "y": 6
+                    },
+                    {
+                      "name": "sunflowerCounter",
+                      "x": 15,
+                      "y": 4
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 48,
+                    "y": 16
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\ui\\game\\ui_noSpeedrunRecord3.png",
+                  "points": [
+                    {
+                      "name": "speedrunCounter",
+                      "x": 30,
+                      "y": 6
+                    },
+                    {
+                      "name": "sunflowerCounter",
+                      "x": 15,
+                      "y": 4
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 48,
+                    "y": 16
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\ui\\game\\ui_noSpeedrunRecord4.png",
+                  "points": [
+                    {
+                      "name": "speedrunCounter",
+                      "x": 30,
+                      "y": 6
+                    },
+                    {
+                      "name": "sunflowerCounter",
+                      "x": 15,
+                      "y": 4
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 48,
+                    "y": 16
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\ui\\game\\ui_noSpeedrunRecord5.png",
+                  "points": [
+                    {
+                      "name": "speedrunCounter",
+                      "x": 30,
+                      "y": 6
+                    },
+                    {
+                      "name": "sunflowerCounter",
+                      "x": 15,
+                      "y": 4
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 48,
+                    "y": 16
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\ui\\game\\ui_noSpeedrunRecord6.png",
+                  "points": [
+                    {
+                      "name": "speedrunCounter",
+                      "x": 30,
+                      "y": 6
+                    },
+                    {
+                      "name": "sunflowerCounter",
+                      "x": 15,
+                      "y": 4
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 48,
+                    "y": 16
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\ui\\game\\ui_speedrunRecord0.png",
+                  "points": [
+                    {
+                      "name": "speedrunCounter",
+                      "x": 30,
+                      "y": 6
+                    },
+                    {
+                      "name": "sunflowerCounter",
+                      "x": 15,
+                      "y": 4
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 48,
+                    "y": 16
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\ui\\game\\ui_speedrunRecord1.png",
+                  "points": [
+                    {
+                      "name": "speedrunCounter",
+                      "x": 30,
+                      "y": 6
+                    },
+                    {
+                      "name": "sunflowerCounter",
+                      "x": 15,
+                      "y": 4
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 48,
+                    "y": 16
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\ui\\game\\ui_speedrunRecord2.png",
+                  "points": [
+                    {
+                      "name": "speedrunCounter",
+                      "x": 30,
+                      "y": 6
+                    },
+                    {
+                      "name": "sunflowerCounter",
+                      "x": 15,
+                      "y": 4
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 48,
+                    "y": 16
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\ui\\game\\ui_speedrunRecord3.png",
+                  "points": [
+                    {
+                      "name": "speedrunCounter",
+                      "x": 30,
+                      "y": 6
+                    },
+                    {
+                      "name": "sunflowerCounter",
+                      "x": 15,
+                      "y": 4
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 48,
+                    "y": 16
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\ui\\game\\ui_speedrunRecord4.png",
+                  "points": [
+                    {
+                      "name": "speedrunCounter",
+                      "x": 30,
+                      "y": 6
+                    },
+                    {
+                      "name": "sunflowerCounter",
+                      "x": 15,
+                      "y": 4
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 48,
+                    "y": 16
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\ui\\game\\ui_speedrunRecord5.png",
+                  "points": [
+                    {
+                      "name": "speedrunCounter",
+                      "x": 30,
+                      "y": 6
+                    },
+                    {
+                      "name": "sunflowerCounter",
+                      "x": 15,
+                      "y": 4
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 48,
+                    "y": 16
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "D_Grid",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\placeholder_0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "HUD_SpeedrunTimer",
+      "tags": "",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "12.34.567",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "assets\\xml\\ui_counter.xml",
+        "textureAtlasResourceName": "assets\\img\\font\\ui_counter.png",
+        "align": "left",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "HUD_SunflowerAmount",
+      "tags": "",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "0",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "assets\\xml\\ui_counter.xml",
+        "textureAtlasResourceName": "assets\\img\\font\\ui_counter.png",
+        "align": "left",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "height": 12,
+      "name": "IGM_Spike",
+      "tags": "",
+      "texture": "assets\\img\\tiles\\active\\hazard\\spike_0.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 24,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "name": "IGM_GoldSunflower",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "collected",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.10000000149011612,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\tiles\\active\\collectables\\gold_sunflower_0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 12,
+                    "y": 12
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\tiles\\active\\collectables\\gold_sunflower_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 12,
+                    "y": 12
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\tiles\\active\\collectables\\gold_sunflower_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 12,
+                    "y": 12
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\tiles\\active\\collectables\\gold_sunflower_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 12,
+                    "y": 12
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\tiles\\active\\collectables\\gold_sunflower_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 12,
+                    "y": 12
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\tiles\\active\\collectables\\gold_sunflower_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 12,
+                    "y": 12
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\tiles\\active\\collectables\\gold_sunflower_6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 12,
+                    "y": 12
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\tiles\\active\\collectables\\gold_sunflower_7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 12,
+                    "y": 12
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\tiles\\active\\collectables\\gold_sunflower_8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 12,
+                    "y": 12
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\tiles\\active\\collectables\\gold_sunflower_9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 12,
+                    "y": 12
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\tiles\\active\\collectables\\sunflower_collected_0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 12,
+                    "y": 12
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 176,
+      "name": "BG_LilyLandscape_L0",
+      "tags": "",
+      "texture": "assets\\img\\bg\\lilylandscape\\layer_0.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 512,
+      "variables": [
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 1
+        }
+      ],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 176,
+      "name": "BG_LilyLandscape_L1",
+      "tags": "",
+      "texture": "assets\\img\\bg\\lilylandscape\\layer_1.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 512,
+      "variables": [
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 1
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "HorizontalTiledSpriteParallax",
+          "type": "Parallax::HorizontalTiledSpriteParallax",
+          "ParallaxFactor": 0.06,
+          "FollowedLayer": "Player"
+        },
+        {
+          "name": "VerticalTiledSpriteParallax",
+          "type": "Parallax::VerticalTiledSpriteParallax",
+          "ParallaxFactor": 0.06,
+          "FollowedLayer": "Player"
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 176,
+      "name": "BG_LilyLandscape_L2",
+      "tags": "",
+      "texture": "assets\\img\\bg\\lilylandscape\\layer_2.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 512,
+      "variables": [
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 1
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "HorizontalTiledSpriteParallax",
+          "type": "Parallax::HorizontalTiledSpriteParallax",
+          "ParallaxFactor": 0.1,
+          "FollowedLayer": "Player"
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 176,
+      "name": "BG_LilyLandscape_L3",
+      "tags": "",
+      "texture": "assets\\img\\bg\\lilylandscape\\layer_3.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 512,
+      "variables": [
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 1
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "HorizontalTiledSpriteParallax",
+          "type": "Parallax::HorizontalTiledSpriteParallax",
+          "ParallaxFactor": 0.125,
+          "FollowedLayer": "Player"
+        },
+        {
+          "name": "VerticalTiledSpriteParallax",
+          "type": "Parallax::VerticalTiledSpriteParallax",
+          "ParallaxFactor": 0.125,
+          "FollowedLayer": "Player"
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 176,
+      "name": "BG_LilyLandscape_L4",
+      "tags": "",
+      "texture": "assets\\img\\bg\\lilylandscape\\layer_4.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 512,
+      "variables": [
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 1
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "HorizontalTiledSpriteParallax",
+          "type": "Parallax::HorizontalTiledSpriteParallax",
+          "ParallaxFactor": 0.15,
+          "FollowedLayer": "Player"
+        },
+        {
+          "name": "VerticalTiledSpriteParallax",
+          "type": "Parallax::VerticalTiledSpriteParallax",
+          "ParallaxFactor": 0.15,
+          "FollowedLayer": "Player"
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 176,
+      "name": "BG_LilyLandscape_L5",
+      "tags": "",
+      "texture": "assets\\img\\bg\\lilylandscape\\layer_5.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 512,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "HorizontalTiledSpriteParallax",
+          "type": "Parallax::HorizontalTiledSpriteParallax",
+          "ParallaxFactor": 0.15,
+          "FollowedLayer": "Player"
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 176,
+      "name": "BG_LilyLandscape_L6",
+      "tags": "",
+      "texture": "assets\\img\\bg\\lilylandscape\\layer_6.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 512,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "HorizontalTiledSpriteParallax",
+          "type": "Parallax::HorizontalTiledSpriteParallax",
+          "ParallaxFactor": 0.2,
+          "FollowedLayer": "Player"
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "HUD_Fade",
+      "tags": "",
+      "type": "PrimitiveDrawing::Drawer",
+      "variables": [
+        {
+          "folded": true,
+          "name": "size",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "fillOpacity": 255,
+      "outlineSize": 0,
+      "outlineOpacity": 255,
+      "fillColor": {
+        "b": 43,
+        "g": 15,
+        "r": 17
+      },
+      "outlineColor": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "absoluteCoordinates": true,
+      "clearBetweenFrames": true
+    }
+  ],
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Main"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Player"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "InGameMiscCode"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "InGameDebugging"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "DiscordRichPresence::UpdateRichPresence"
+          },
+          "parameters": [
+            "",
+            "\"Act 1\"",
+            "\"Test Zone\"",
+            "",
+            "",
+            "\"cover\"",
+            "\"\"",
+            "\"ineditor\"",
+            "\"Test Zone\"",
+            ""
+          ]
+        }
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 1,
+      "ambientLightColorG": -2147483616,
+      "ambientLightColorR": 19,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Background",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 83886080,
+      "ambientLightColorG": 114,
+      "ambientLightColorR": 1702453580,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Middleground",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 32,
+      "ambientLightColorG": 0,
+      "ambientLightColorR": 0,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 12,
+      "ambientLightColorG": 6042736,
+      "ambientLightColorR": 8354944,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Active",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 8057704,
+      "ambientLightColorG": 6042736,
+      "ambientLightColorR": 8123656,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Player",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 7361376,
+      "ambientLightColorG": 6042736,
+      "ambientLightColorR": 7387016,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "HUD",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "AdvancedJump",
+      "type": "AdvancedJump::AdvancedJump"
+    },
+    {
+      "name": "HorizontalTiledSpriteParallax",
+      "type": "Parallax::HorizontalTiledSpriteParallax"
+    },
+    {
+      "name": "Platform",
+      "type": "PlatformBehavior::PlatformBehavior"
+    },
+    {
+      "name": "PlatformerObject",
+      "type": "PlatformBehavior::PlatformerObjectBehavior"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
+    },
+    {
+      "name": "VerticalTiledSpriteParallax",
+      "type": "Parallax::VerticalTiledSpriteParallax"
+    }
+  ]
+}

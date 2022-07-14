@@ -1,0 +1,67 @@
+{
+  "associatedLayout": "test",
+  "name": "HUD",
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "HUD",
+      "locked": false,
+      "name": "HUD_Background",
+      "persistentUuid": "3c2ec4bb-649f-4b19-ba09-248496f3a359",
+      "width": 0,
+      "x": 144,
+      "y": 16,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 11,
+      "layer": "HUD",
+      "locked": false,
+      "name": "HUD_SpeedrunTimer",
+      "persistentUuid": "f1d9d55b-7838-469d-84c5-9a2c78d343aa",
+      "width": 59,
+      "x": 126,
+      "y": 6,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 10,
+      "layer": "HUD",
+      "locked": false,
+      "name": "HUD_SunflowerAmount",
+      "persistentUuid": "240b497e-d19b-41b6-a358-80449be62ddc",
+      "width": 8,
+      "x": 111,
+      "y": 4,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "editionSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 4.499999999999989,
+    "windowMask": false
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "associatedLayout": "test",
+  "lastChangeTimeStamp": 0,
+  "name": "Main",
+  "events": [
+    {
+      "folded": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetWindowSize"
+          },
+          "parameters": [
+            "",
+            "SceneWindowWidth() * GlobalVariable(WindowSize)",
+            "SceneWindowHeight() * GlobalVariable(WindowSize)",
+            "no"
+          ]
+        },
+        {
+          "type": {
+            "value": "AdvancedWindow::SetMaximizable"
+          },
+          "parameters": [
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AdvancedWindow::SetResizable"
+          },
+          "parameters": [
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AdvancedWindow::SetFullScreenable"
+          },
+          "parameters": [
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "CenterWindow"
+          },
+          "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "DiscordRichPresence::ConnectToDiscord"
+          },
+          "parameters": [
+            "",
+            "\"995449477307572415\"",
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": "var windowSize = 5;\n\ngdjs.evtTools.window.setWindowSize( runtimeScene, runtimeScene.getGame().getOriginalWidth() * windowSize, runtimeScene.getGame().getOriginalHeight() * windowSize, false )\n\ngdjs.evtTools.window.centerWindow( runtimeScene )",
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": true
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "TODO: \n - Dodanie Savingu i innych takich\n - Ogarniecie BG\n - Dzwieki",
+      "comment2": ""
+    }
+  ]
+}

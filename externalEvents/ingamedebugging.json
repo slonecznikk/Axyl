@@ -1,0 +1,101 @@
+{
+  "associatedLayout": "test",
+  "lastChangeTimeStamp": 0,
+  "name": "InGameDebugging",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "TreehouseGlobalInputMenager::CheckInput"
+          },
+          "parameters": [
+            "",
+            "\"A\"",
+            "\"Left\"",
+            "1",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TreehouseGlobalInputMenager::CheckInput"
+          },
+          "parameters": [
+            "",
+            "\"Start\"",
+            "\"Left\"",
+            "1",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ToggleGlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "DebugMode"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "TreehouseGlobalInputMenager::CheckInput"
+          },
+          "parameters": [
+            "",
+            "\"B\"",
+            "\"Left\"",
+            "1",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TreehouseGlobalInputMenager::CheckInput"
+          },
+          "parameters": [
+            "",
+            "\"Start\"",
+            "\"Left\"",
+            "1",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "Player",
+            "=",
+            "IGM_GoldSunflower.X()",
+            "=",
+            "IGM_GoldSunflower.Y()"
+          ]
+        }
+      ]
+    }
+  ]
+}

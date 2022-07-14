@@ -1,0 +1,12 @@
+{
+  "associatedLayout": "test",
+  "lastChangeTimeStamp": 0,
+  "name": "Debugging",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    }
+  ]
+}

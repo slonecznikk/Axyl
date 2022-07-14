@@ -21,7 +21,7 @@
     "gridColor": 16250871,
     "gridAlpha": 0.1,
     "snap": true,
-    "zoomFactor": 2.2047777003288247,
+    "zoomFactor": 2.1227776972770718,
     "windowMask": false
   },
   "objectsGroups": [
@@ -30,17 +30,6 @@
       "objects": [
         {
           "name": "tile1"
-        }
-      ]
-    },
-    {
-      "name": "bg",
-      "objects": [
-        {
-          "name": "bg1_layer1"
-        },
-        {
-          "name": "bg1_layer2"
         }
       ]
     },
@@ -68,7 +57,7 @@
       "persistentUuid": "ab09f329-dd07-496a-93b4-96b1eb96d354",
       "width": 104,
       "x": 40,
-      "y": 152,
+      "y": 112,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -84,7 +73,7 @@
       "persistentUuid": "9b1ba841-bd99-4673-8de5-3baf10701da3",
       "width": 0,
       "x": 3,
-      "y": -13,
+      "y": -53,
       "zOrder": 5,
       "numberProperties": [
         {
@@ -92,22 +81,6 @@
           "value": 0
         }
       ],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 192,
-      "layer": "BG",
-      "locked": true,
-      "name": "bg1_layer1",
-      "persistentUuid": "8d1990a9-ac74-4dbf-8990-99617c36f8b4",
-      "width": 476,
-      "x": -96,
-      "y": 0,
-      "zOrder": 0,
-      "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
@@ -121,24 +94,8 @@
       "persistentUuid": "15875341-f443-42d1-bd37-f9159cf6cf98",
       "width": 0,
       "x": 32,
-      "y": 88,
+      "y": 48,
       "zOrder": 8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "BG",
-      "locked": true,
-      "name": "bg1_layer2",
-      "persistentUuid": "7fa91de7-82ac-4013-aafe-e6931d5c4ccc",
-      "width": 0,
-      "x": -100,
-      "y": 0,
-      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -153,7 +110,7 @@
       "persistentUuid": "287fec66-59a8-463f-aedc-272529c888a0",
       "width": 24,
       "x": 16,
-      "y": 112,
+      "y": 72,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -168,8 +125,8 @@
       "name": "player",
       "persistentUuid": "5cba49d9-d4a2-4b64-a686-a0e9c7783eb3",
       "width": 0,
-      "x": 106,
-      "y": 138,
+      "x": 62,
+      "y": 94,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -184,8 +141,8 @@
       "name": "spike_ball",
       "persistentUuid": "66fe984e-a44c-46b2-b03a-4d2a7ba1a5d6",
       "width": 8,
-      "x": 184,
-      "y": 32,
+      "x": 192,
+      "y": -8,
       "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
@@ -201,7 +158,7 @@
       "persistentUuid": "a346c89f-7535-4227-812f-2260542a448a",
       "width": 8,
       "x": 136,
-      "y": 72,
+      "y": 32,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -217,7 +174,7 @@
       "persistentUuid": "9c551db1-14d0-4b18-89c7-cc160c1afb0f",
       "width": 40,
       "x": 176,
-      "y": 152,
+      "y": 112,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -231,9 +188,9 @@
       "locked": false,
       "name": "tile1",
       "persistentUuid": "c06a2168-bfce-4819-8a46-8e631d6bc900",
-      "width": 32,
-      "x": 240,
-      "y": 128,
+      "width": 24,
+      "x": 272,
+      "y": 88,
       "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
@@ -247,9 +204,9 @@
       "locked": false,
       "name": "tile1",
       "persistentUuid": "f39f05fc-c33a-4fcf-b088-6c800d35a05d",
-      "width": 32,
-      "x": 240,
-      "y": 48,
+      "width": 24,
+      "x": 272,
+      "y": 8,
       "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
@@ -265,7 +222,7 @@
       "persistentUuid": "fc2fb4ad-631a-4440-8881-1dcad35660eb",
       "width": 8,
       "x": -24,
-      "y": -8,
+      "y": -48,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -280,8 +237,8 @@
       "name": "spike_ball",
       "persistentUuid": "cc0b8e6b-ce77-448b-9288-976ce699909e",
       "width": 8,
-      "x": 224,
-      "y": 128,
+      "x": 240,
+      "y": 88,
       "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
@@ -297,7 +254,7 @@
       "persistentUuid": "f76d042b-4de7-4654-a06b-15924c991118",
       "width": 24,
       "x": 88,
-      "y": 80,
+      "y": 40,
       "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
@@ -306,15 +263,47 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 1,
+      "height": 8,
       "layer": "",
       "locked": false,
       "name": "spike_ball",
       "persistentUuid": "847b1331-7460-4cd2-9fe4-0f0b659b8a30",
       "width": 376,
       "x": -24,
-      "y": 191,
+      "y": 151,
       "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "locked": false,
+      "name": "tile1",
+      "persistentUuid": "d1aa2f31-b3bb-4c0f-bb6f-93a6ec7516b3",
+      "width": 488,
+      "x": 320,
+      "y": 104,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 176,
+      "layer": "Debug",
+      "locked": false,
+      "name": "cam_mask",
+      "persistentUuid": "a6e6bf94-c459-4bb4-a434-b9333178afca",
+      "width": 256,
+      "x": 0,
+      "y": 0,
+      "zOrder": 28,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -323,14 +312,46 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
+      "layer": "Debug",
       "locked": false,
-      "name": "tile1",
-      "persistentUuid": "d1aa2f31-b3bb-4c0f-bb6f-93a6ec7516b3",
+      "name": "cam_mask",
+      "persistentUuid": "36e6eb3d-2471-46f0-9209-153d453b29a1",
       "width": 0,
-      "x": 320,
-      "y": 144,
-      "zOrder": 27,
+      "x": 256,
+      "y": 0,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Debug",
+      "locked": false,
+      "name": "cam_mask",
+      "persistentUuid": "eb6e3de2-5f78-4674-8971-b589a6d2d2bf",
+      "width": 0,
+      "x": 512,
+      "y": 0,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Debug",
+      "locked": false,
+      "name": "cam_mask",
+      "persistentUuid": "4223aa6d-392e-499e-8316-79008c65e6c4",
+      "width": 0,
+      "x": 768,
+      "y": 0,
+      "zOrder": 29,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -338,81 +359,7 @@
   ],
   "objects": [
     {
-      "height": 192,
-      "name": "bg1_layer1",
-      "tags": "",
-      "texture": "assets\\img\\levels\\bg\\tutorial\\layer1_stars.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 512,
-      "variables": [
-        {
-          "name": "offset_x",
-          "type": "number",
-          "value": 0
-        }
-      ],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "HorizontalTiledSpriteParallax",
-          "type": "Parallax::HorizontalTiledSpriteParallax",
-          "ParallaxFactor": 0.25,
-          "FollowedLayer": "Player"
-        },
-        {
-          "name": "VerticalTiledSpriteParallax",
-          "type": "Parallax::VerticalTiledSpriteParallax",
-          "ParallaxFactor": 0.3,
-          "FollowedLayer": ""
-        }
-      ]
-    },
-    {
-      "height": 192,
-      "name": "bg1_layer2",
-      "tags": "",
-      "texture": "assets\\img\\levels\\bg\\tutorial\\layer2_stars.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 512,
-      "variables": [
-        {
-          "name": "offset_x",
-          "type": "number",
-          "value": 0
-        }
-      ],
-      "effects": [
-        {
-          "effectType": "AdvancedBloom",
-          "name": "Effect",
-          "doubleParameters": {
-            "bloomScale": 2,
-            "blur": 8,
-            "brightness": 1,
-            "padding": 0,
-            "quality": 6,
-            "threshold": 0
-          },
-          "stringParameters": {},
-          "booleanParameters": {}
-        }
-      ],
-      "behaviors": [
-        {
-          "name": "HorizontalTiledSpriteParallax",
-          "type": "Parallax::HorizontalTiledSpriteParallax",
-          "ParallaxFactor": 0.35,
-          "FollowedLayer": ""
-        },
-        {
-          "name": "VerticalTiledSpriteParallax",
-          "type": "Parallax::VerticalTiledSpriteParallax",
-          "ParallaxFactor": 0.4,
-          "FollowedLayer": ""
-        }
-      ]
-    },
-    {
+      "assetStoreId": "",
       "name": "spike",
       "tags": "",
       "type": "Sprite",
@@ -603,6 +550,7 @@
       ]
     },
     {
+      "assetStoreId": "",
       "height": 8,
       "name": "spike_ball",
       "tags": "",
@@ -651,30 +599,43 @@
       "target": "ui"
     },
     {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "cosmetics"
+    },
+    {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
-            "inverted": false,
             "value": "DepartScene"
           },
           "parameters": [
             ""
-          ],
-          "subInstructions": []
+          ]
         }
       ],
       "actions": [
         {
           "type": {
-            "inverted": false,
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "bg_id",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
             "value": "SetGlobalVariableAsBoolean"
           },
           "parameters": [
             "inGame",
             "True"
-          ],
-          "subInstructions": []
+          ]
         }
       ],
       "events": [
@@ -685,32 +646,32 @@
           "actions": [
             {
               "type": {
-                "inverted": false,
                 "value": "ChangeLayerTimeScale"
               },
               "parameters": [
                 "",
                 "\"Player\"",
                 "0.5"
-              ],
-              "subInstructions": []
+              ]
             },
             {
               "type": {
-                "inverted": false,
                 "value": "ChangeLayerTimeScale"
               },
               "parameters": [
                 "",
                 "\"\"",
                 "0.25"
-              ],
-              "subInstructions": []
+              ]
             }
-          ],
-          "events": []
+          ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
@@ -720,7 +681,18 @@
       "ambientLightColorR": 8401552,
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "name": "BG",
+      "name": "BackGround",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 8382936,
+      "ambientLightColorG": 8382936,
+      "ambientLightColorR": 0,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "MiddleGround",
       "visibility": true,
       "cameras": [],
       "effects": []
@@ -764,7 +736,7 @@
       "ambientLightColorR": 9138568,
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "name": "FG",
+      "name": "ForeGround",
       "visibility": true,
       "cameras": [],
       "effects": []
@@ -815,7 +787,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "Debug",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": []
     }
@@ -836,6 +808,10 @@
     {
       "name": "PlatformerObject",
       "type": "PlatformBehavior::PlatformerObjectBehavior"
+    },
+    {
+      "name": "SineMovement",
+      "type": "SineMovement::SineMovement"
     },
     {
       "name": "Tween",

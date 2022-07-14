@@ -10,81 +10,44 @@
     "adaptGameResolutionAtRuntime": false,
     "folderProject": true,
     "orientation": "landscape",
-    "packageName": "teafan.axyl",
+    "packageName": "treehouse.precission_axolotl",
     "pixelsRounding": false,
-    "projectUuid": "cadc58df-cb40-4ffb-8716-9fbc3e6ae2a3",
+    "projectUuid": "947e9baf-83cb-4740-9701-def3aa49111c",
     "scaleMode": "nearest",
-    "sizeOnStartupMode": "adaptHeight",
+    "sizeOnStartupMode": "",
+    "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
-    "name": "Subscribe to Treehouse Team on YouTube",
-    "description": "Precission Platformer where you play as Axyl, an Axolotl",
+    "name": "Axyl",
+    "description": "",
     "author": "",
-    "windowWidth": 256,
+    "windowWidth": 288,
     "windowHeight": 176,
     "latestCompilationDirectory": "",
-    "maxFPS": 60,
+    "maxFPS": 0,
     "minFPS": 20,
     "verticalSync": false,
-    "platformSpecificAssets": {
-      "android-icon-144": "assets\\img\\icons\\android-icon-144.png",
-      "android-icon-192": "assets\\img\\icons\\android-icon-192.png",
-      "android-icon-36": "assets\\img\\icons\\android-icon-36.png",
-      "android-icon-48": "assets\\img\\icons\\android-icon-48.png",
-      "android-icon-72": "android-icon-72.png",
-      "android-icon-96": "assets\\img\\icons\\android-icon-96.png",
-      "desktop-icon-512": "assets\\img\\icons\\desktop-icon-512.png",
-      "ios-icon-100": "assets\\img\\icons\\ios-icon-100.png",
-      "ios-icon-1024": "assets\\img\\icons\\ios-icon-1024.png",
-      "ios-icon-114": "assets\\img\\icons\\ios-icon-144.png",
-      "ios-icon-120": "assets\\img\\icons\\ios-icon-120.png",
-      "ios-icon-144": "assets\\img\\icons\\ios-icon-144.png",
-      "ios-icon-152": "assets\\img\\icons\\ios-icon-152.png",
-      "ios-icon-167": "assets\\img\\icons\\ios-icon-167.png",
-      "ios-icon-180": "assets\\img\\icons\\ios-icon-180.png",
-      "ios-icon-20": "assets\\img\\icons\\ios-icon-20.png",
-      "ios-icon-29": "assets\\img\\icons\\ios-icon-29.png",
-      "ios-icon-40": "assets\\img\\icons\\ios-icon-40.png",
-      "ios-icon-50": "assets\\img\\icons\\ios-icon-50.png",
-      "ios-icon-57": "assets\\img\\icons\\ios-icon-57.png",
-      "ios-icon-58": "assets\\img\\icons\\ios-icon-58.png",
-      "ios-icon-60": "assets\\img\\icons\\ios-icon-60.png",
-      "ios-icon-72": "assets\\img\\icons\\ios-icon-72.png",
-      "ios-icon-76": "assets\\img\\icons\\ios-icon-76.png",
-      "ios-icon-80": "assets\\img\\icons\\ios-icon-80.png",
-      "ios-icon-87": "assets\\img\\icons\\ios-icon-87.png",
-      "liluo-thumbnail": ""
-    },
+    "platformSpecificAssets": {},
     "loadingScreen": {
-      "backgroundColor": 2239037,
+      "backgroundColor": 0,
       "backgroundFadeInDuration": 0.2,
       "backgroundImageResourceName": "",
       "gdevelopLogoStyle": "light",
-      "logoAndProgressFadeInDuration": 0.3,
-      "logoAndProgressLogoFadeInDelay": 0.3,
-      "minDuration": 1.6,
-      "progressBarColor": 15594210,
-      "progressBarHeight": 10,
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
       "progressBarMaxWidth": 200,
-      "progressBarMinWidth": 50,
-      "progressBarWidthPercent": 50,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
       "showGDevelopSplash": true,
       "showProgressBar": true
     },
     "authorIds": [],
     "categories": [],
-    "playableDevices": [
-      "keyboard",
-      "gamepad",
-      "mobile"
-    ],
-    "extensionProperties": [
-      {
-        "extension": "AdMob",
-        "property": "AdMobAppIdIos",
-        "value": ""
-      }
-    ],
+    "playableDevices": [],
+    "extensionProperties": [],
     "platforms": [
       {
         "name": "GDevelop JS platform"
@@ -96,2109 +59,708 @@
     "resources": [
       {
         "alwaysLoaded": false,
-        "file": "assets/img/player/player1.png",
+        "file": "assets/placeholder-1.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\img\\player\\player1.png",
+        "name": "assets\\placeholder-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/player/axyl_idle0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\player\\axyl_idle0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/player/axyl_idle1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\player\\axyl_idle1.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/img/player/player2.png",
+        "file": "assets/img/player/axyl_idle2.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\img\\player\\player2.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/player/player3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\img\\player\\player3.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/player/player4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\img\\player\\player4.png",
+        "name": "assets\\img\\player\\axyl_idle2.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/img/player/player7.png",
+        "file": "assets/img/player/axyl_idle3.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\img\\player\\player7.png",
+        "name": "assets\\img\\player\\axyl_idle3.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/img/player/player10.png",
+        "file": "assets/img/player/axyl_run0.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\img\\player\\player10.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/tiles/tetra/ground.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\img\\tiles\\tetra\\ground.png",
+        "name": "assets\\img\\player\\axyl_run0.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/img/player/player14.png",
+        "file": "assets/img/player/axyl_run1.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\img\\player\\player14.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/player/player13.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\img\\player\\player13.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/player/player12.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\img\\player\\player12.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/player/player15.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\img\\player\\player15.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/player/player16.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\img\\player\\player16.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/player/player17.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\img\\player\\player17.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/player/other/indicator.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\img\\player\\other\\indicator.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/tiles/hazards/spike1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\img\\tiles\\hazards\\spike1.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/tiles/hazards/spike2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\img\\tiles\\hazards\\spike2.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/tiles/hazards/spike3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\img\\tiles\\hazards\\spike3.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/tiles/hazards/spike4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\img\\tiles\\hazards\\spike4.png",
+        "name": "assets\\img\\player\\axyl_run1.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/img/levels/bg/tutorial/layer1_stars.png",
+        "file": "assets/img/player/axyl_run2.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\img\\levels\\bg\\tutorial\\layer1_stars.png",
+        "name": "assets\\img\\player\\axyl_run2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/player/axyl_run3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\player\\axyl_run3.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/img/levels/bg/tutorial/layer2_stars.png",
+        "file": "assets/img/player/axyl_crouch0.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\img\\levels\\bg\\tutorial\\layer2_stars.png",
+        "name": "assets\\img\\player\\axyl_crouch0.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/player/axyl_jump0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\player\\axyl_jump0.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/img/ui/menus/logo.png",
+        "file": "assets/img/player/axyl_fall0.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\img\\ui\\menus\\logo.png",
+        "name": "assets\\img\\player\\axyl_fall0.png",
         "smoothed": false,
         "userAdded": true
       },
       {
-        "file": "assets/fnt/m3x6.ttf",
-        "kind": "font",
+        "alwaysLoaded": false,
+        "file": "assets/img/ui/game/timer_overlay_false_0.png",
+        "kind": "image",
         "metadata": "",
-        "name": "assets\\fnt\\m3x6.ttf",
+        "name": "assets\\img\\ui\\game\\timer_overlay_false_0.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/ui/game/timer_overlay_false_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\ui\\game\\timer_overlay_false_1.png",
+        "smoothed": false,
         "userAdded": true
       },
       {
-        "file": "assets/fnt/m5x7.ttf",
-        "kind": "font",
+        "alwaysLoaded": false,
+        "file": "assets/img/ui/game/timer_overlay_false_2.png",
+        "kind": "image",
         "metadata": "",
-        "name": "assets\\fnt\\m5x7.ttf",
+        "name": "assets\\img\\ui\\game\\timer_overlay_false_2.png",
+        "smoothed": false,
         "userAdded": true
       },
       {
-        "file": "assets/fnt/3x6.fnt",
+        "alwaysLoaded": false,
+        "file": "assets/img/ui/game/timer_overlay_false_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\ui\\game\\timer_overlay_false_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/ui/game/timer_overlay_false_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\ui\\game\\timer_overlay_false_4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/ui/game/timer_overlay_false_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\ui\\game\\timer_overlay_false_5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/ui/game/timer_overlay_true_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\ui\\game\\timer_overlay_true_0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/ui/game/timer_overlay_true_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\ui\\game\\timer_overlay_true_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/ui/game/timer_overlay_true_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\ui\\game\\timer_overlay_true_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/ui/game/timer_overlay_true_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\ui\\game\\timer_overlay_true_3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/ui/game/timer_overlay_true_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\ui\\game\\timer_overlay_true_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/ui/game/timer_overlay_true_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\ui\\game\\timer_overlay_true_5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/ui/game/background_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\ui\\game\\background_0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/ui/game/sunflower_counter.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\ui\\game\\sunflower_counter.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/placeholder_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\placeholder_0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/xml/ui_counter.xml",
         "kind": "bitmapFont",
         "metadata": "",
-        "name": "assets\\fnt\\3x6.fnt",
-        "userAdded": true
-      },
-      {
-        "file": "assets/fnt/5x7.fnt",
-        "kind": "bitmapFont",
-        "metadata": "",
-        "name": "assets\\fnt\\5x7.fnt",
+        "name": "assets\\xml\\ui_counter.xml",
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/fnt/5x7_0.png",
+        "file": "assets/img/font/ui_counter.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\fnt\\5x7_0.png",
+        "name": "assets\\img\\font\\ui_counter.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/fnt/5x7_1.png",
+        "file": "assets/img/tiles/active/hazard/spike_0.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\fnt\\5x7_1.png",
+        "name": "assets\\img\\tiles\\active\\hazard\\spike_0.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/fnt/5x7_2.png",
+        "file": "assets/img/tiles/active/collectables/gold_sunflower_0.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\fnt\\5x7_2.png",
+        "name": "assets\\img\\tiles\\active\\collectables\\gold_sunflower_0.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/fnt/3x6_0.png",
+        "file": "assets/img/tiles/active/collectables/gold_sunflower_1.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\fnt\\3x6_0.png",
+        "name": "assets\\img\\tiles\\active\\collectables\\gold_sunflower_1.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/img/ui/menus/logo_layer1_segment1.png",
+        "file": "assets/img/tiles/active/collectables/gold_sunflower_2.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\img\\ui\\menus\\logo_layer1_segment1.png",
+        "name": "assets\\img\\tiles\\active\\collectables\\gold_sunflower_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/tiles/active/collectables/gold_sunflower_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\tiles\\active\\collectables\\gold_sunflower_3.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/img/ui/menus/logo_layer1_segment2.png",
+        "file": "assets/img/tiles/active/collectables/gold_sunflower_4.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\img\\ui\\menus\\logo_layer1_segment2.png",
+        "name": "assets\\img\\tiles\\active\\collectables\\gold_sunflower_4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/tiles/active/collectables/gold_sunflower_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\tiles\\active\\collectables\\gold_sunflower_5.png",
         "smoothed": false,
         "userAdded": true
       },
       {
-        "file": "assets/sfx/ui_select.wav",
+        "alwaysLoaded": false,
+        "file": "assets/img/tiles/active/collectables/gold_sunflower_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\tiles\\active\\collectables\\gold_sunflower_6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/tiles/active/collectables/gold_sunflower_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\tiles\\active\\collectables\\gold_sunflower_7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/tiles/active/collectables/gold_sunflower_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\tiles\\active\\collectables\\gold_sunflower_8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/tiles/active/collectables/gold_sunflower_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\tiles\\active\\collectables\\gold_sunflower_9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/test.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\test.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/bg/lilylandscape/layer_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\bg\\lilylandscape\\layer_0.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/bg/lilylandscape/layer_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\bg\\lilylandscape\\layer_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/bg/lilylandscape/layer_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\bg\\lilylandscape\\layer_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/bg/lilylandscape/layer_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\bg\\lilylandscape\\layer_3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/bg/lilylandscape/layer_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\bg\\lilylandscape\\layer_4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/bg/lilylandscape/layer_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\bg\\lilylandscape\\layer_5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/player/axyl_slide0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\player\\axyl_slide0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/player/axyl_ghost0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\player\\axyl_ghost0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/player/axyl_ghost1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\player\\axyl_ghost1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/player/axyl_ghost2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\player\\axyl_ghost2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/player/axyl_ghost3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\player\\axyl_ghost3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/player/axyl_ghost4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\player\\axyl_ghost4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/tiles/active/collectables/sunflower_collected_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\tiles\\active\\collectables\\sunflower_collected_0.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/bg/lilylandscape/layer_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\bg\\lilylandscape\\layer_6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/snd/fx/igm/pause.wav",
         "kind": "audio",
         "metadata": "",
-        "name": "assets\\sfx\\ui_select.wav",
+        "name": "assets\\snd\\fx\\igm\\pause.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/snd/fx/igm/unpause.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\snd\\fx\\igm\\unpause.wav",
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/img/ui/menus/logo_text.png",
+        "file": "assets/img/ui/game/ui_noSpeedrunRecord1.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\img\\ui\\menus\\logo_text.png",
+        "name": "assets\\img\\ui\\game\\ui_noSpeedrunRecord1.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/img/icons/desktop-icon-512.png",
+        "file": "assets/img/ui/game/ui_noSpeedrunRecord2.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\img\\icons\\desktop-icon-512.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/icons/android-icon-192.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\img\\icons\\android-icon-192.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/icons/android-icon-144.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\img\\icons\\android-icon-144.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/icons/android-icon-96.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\img\\icons\\android-icon-96.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/icons/android-icon-48.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\img\\icons\\android-icon-48.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/icons/android-icon-36.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\img\\icons\\android-icon-36.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/icons/ios-icon-1024.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\img\\icons\\ios-icon-1024.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/icons/ios-icon-180.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\img\\icons\\ios-icon-180.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/icons/ios-icon-167.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\img\\icons\\ios-icon-167.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/icons/ios-icon-152.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\img\\icons\\ios-icon-152.png",
+        "name": "assets\\img\\ui\\game\\ui_noSpeedrunRecord2.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/img/icons/ios-icon-144.png",
+        "file": "assets/img/ui/game/ui_noSpeedrunRecord3.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\img\\icons\\ios-icon-144.png",
+        "name": "assets\\img\\ui\\game\\ui_noSpeedrunRecord3.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/img/icons/ios-icon-120.png",
+        "file": "assets/img/ui/game/ui_noSpeedrunRecord4.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\img\\icons\\ios-icon-120.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/icons/ios-icon-100.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\img\\icons\\ios-icon-100.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/icons/ios-icon-87.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\img\\icons\\ios-icon-87.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/icons/ios-icon-80.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\img\\icons\\ios-icon-80.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/icons/ios-icon-76.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\img\\icons\\ios-icon-76.png",
+        "name": "assets\\img\\ui\\game\\ui_noSpeedrunRecord4.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/img/icons/ios-icon-72.png",
+        "file": "assets/img/ui/game/ui_noSpeedrunRecord5.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\img\\icons\\ios-icon-72.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/icons/ios-icon-60.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\img\\icons\\ios-icon-60.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/icons/ios-icon-58.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\img\\icons\\ios-icon-58.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/icons/ios-icon-57.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\img\\icons\\ios-icon-57.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/icons/ios-icon-50.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\img\\icons\\ios-icon-50.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/icons/ios-icon-40.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\img\\icons\\ios-icon-40.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/icons/ios-icon-29.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\img\\icons\\ios-icon-29.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/icons/ios-icon-20.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\img\\icons\\ios-icon-20.png",
+        "name": "assets\\img\\ui\\game\\ui_noSpeedrunRecord5.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/fnt/3x6_2.png",
+        "file": "assets/img/ui/game/ui_noSpeedrunRecord6.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\fnt\\3x6_2.png",
+        "name": "assets\\img\\ui\\game\\ui_noSpeedrunRecord6.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/fnt/3x6_1.png",
+        "file": "assets/img/ui/game/ui_speedrunRecord0.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\fnt\\3x6_1.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "file": "assets/fnt/3x5.fnt",
-        "kind": "bitmapFont",
-        "metadata": "",
-        "name": "assets\\fnt\\3x5.fnt",
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/fnt/3x5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\fnt\\3x5.png",
+        "name": "assets\\img\\ui\\game\\ui_speedrunRecord0.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/img/tiles/hazards/spike_ball1.png",
+        "file": "assets/img/ui/game/ui_speedrunRecord1.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\img\\tiles\\hazards\\spike_ball1.png",
+        "name": "assets\\img\\ui\\game\\ui_speedrunRecord1.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/img/misc/cam_mask.png",
+        "file": "assets/img/ui/game/ui_speedrunRecord2.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\img\\misc\\cam_mask.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/sfx/ost/main_theme.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "assets\\sfx\\ost\\main_theme.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/ui/menus/main_button_0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\img\\ui\\menus\\main_button_0.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/ui/menus/main_button_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\img\\ui\\menus\\main_button_1.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/ui/dye_fg.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\img\\ui\\dye_fg.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/ui/die_fg.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\img\\ui\\die_fg.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/ui/cursor.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\img\\ui\\cursor.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/levels/bg/z1_sunset_forest/layer9.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\img\\levels\\bg\\z1_sunset_forest\\layer9.png",
+        "name": "assets\\img\\ui\\game\\ui_speedrunRecord2.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/img/levels/bg/z1_sunset_forest/layer8.png",
+        "file": "assets/img/ui/game/ui_speedrunRecord3.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\img\\levels\\bg\\z1_sunset_forest\\layer8.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/levels/bg/z1_sunset_forest/layer7.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\img\\levels\\bg\\z1_sunset_forest\\layer7.png",
+        "name": "assets\\img\\ui\\game\\ui_speedrunRecord3.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/img/levels/bg/z1_sunset_forest/layer6.png",
+        "file": "assets/img/ui/game/ui_speedrunRecord4.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\img\\levels\\bg\\z1_sunset_forest\\layer6.png",
+        "name": "assets\\img\\ui\\game\\ui_speedrunRecord4.png",
         "smoothed": false,
-        "userAdded": true
+        "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/img/levels/bg/z1_sunset_forest/layer5.png",
+        "file": "assets/img/ui/game/ui_speedrunRecord5.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\img\\levels\\bg\\z1_sunset_forest\\layer5.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/levels/bg/z1_sunset_forest/layer1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\img\\levels\\bg\\z1_sunset_forest\\layer1.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/levels/bg/z1_sunset_forest/layer4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\img\\levels\\bg\\z1_sunset_forest\\layer4.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/levels/bg/z1_sunset_forest/layer3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\img\\levels\\bg\\z1_sunset_forest\\layer3.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/img/levels/bg/z1_sunset_forest/layer2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\img\\levels\\bg\\z1_sunset_forest\\layer2.png",
+        "name": "assets\\img\\ui\\game\\ui_speedrunRecord5.png",
         "smoothed": false,
         "userAdded": true
       }
     ],
     "resourceFolders": []
   },
-  "objects": [
-    {
-      "name": "debug_list",
-      "tags": "",
-      "type": "BitmapText::BitmapTextObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "text": "Axyl:\n - x: 12000\n - y: 12000\n\nFPS: 60",
-        "opacity": 255,
-        "scale": 1,
-        "fontSize": 20,
-        "tint": "255;255;255",
-        "bitmapFontResourceName": "assets\\fnt\\3x5.fnt",
-        "textureAtlasResourceName": "assets\\fnt\\3x5.png",
-        "align": "left",
-        "wordWrap": true
-      }
-    },
-    {
-      "name": "player",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [
-        {
-          "name": "jumpCount",
-          "type": "number",
-          "value": 0
-        },
-        {
-          "name": "dashAtack",
-          "type": "boolean",
-          "value": false
-        },
-        {
-          "name": "hasDied",
-          "type": "boolean",
-          "value": false
-        },
-        {
-          "folded": true,
-          "name": "startX",
-          "type": "number",
-          "value": 0
-        },
-        {
-          "folded": true,
-          "name": "startY",
-          "type": "number",
-          "value": 0
-        }
-      ],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "AdvancedJump",
-          "type": "AdvancedJump::AdvancedJump",
-          "CoyoteTimeFrameDuration": 0.5,
-          "PlatformerBehavior": "PlatformerObject",
-          "CanCoyoteJump": false,
-          "WasInTheAir": false
-        },
-        {
-          "name": "PlatformerObject",
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
-          "acceleration": 1250,
-          "canGoDownFromJumpthru": false,
-          "deceleration": 1100,
-          "jumpSustainTime": 0.5,
-          "maxSpeed": 175,
-          "canGrabWithoutMoving": false,
-          "jumpSpeed": 300,
-          "ladderClimbingSpeed": 150,
-          "maxFallingSpeed": 700,
-          "canGrabPlatforms": false,
-          "gravity": 1000,
-          "ignoreDefaultControls": true,
-          "slopeMaxAngle": 60,
-          "useLegacyTrajectory": false,
-          "xGrabTolerance": 10,
-          "yGrabOffset": 0
-        }
-      ],
-      "animations": [
-        {
-          "name": "idle",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.09000000357627869,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\img\\player\\player1.png",
-                  "points": [
-                    {
-                      "name": "Indicator",
-                      "x": 6,
-                      "y": 0
-                    },
-                    {
-                      "name": "Smoke",
-                      "x": 6,
-                      "y": 10
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 6,
-                    "y": 6
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 2,
-                        "y": 3
-                      },
-                      {
-                        "x": 8,
-                        "y": 3
-                      },
-                      {
-                        "x": 8,
-                        "y": 12
-                      },
-                      {
-                        "x": 2,
-                        "y": 12
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\img\\player\\player2.png",
-                  "points": [
-                    {
-                      "name": "Indicator",
-                      "x": 6,
-                      "y": 0
-                    },
-                    {
-                      "name": "Smoke",
-                      "x": 6,
-                      "y": 10
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 6,
-                    "y": 6
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 2,
-                        "y": 3
-                      },
-                      {
-                        "x": 8,
-                        "y": 3
-                      },
-                      {
-                        "x": 8,
-                        "y": 12
-                      },
-                      {
-                        "x": 2,
-                        "y": 12
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\img\\player\\player3.png",
-                  "points": [
-                    {
-                      "name": "Indicator",
-                      "x": 6,
-                      "y": 0
-                    },
-                    {
-                      "name": "Smoke",
-                      "x": 6,
-                      "y": 10
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 6,
-                    "y": 6
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 2,
-                        "y": 3
-                      },
-                      {
-                        "x": 8,
-                        "y": 3
-                      },
-                      {
-                        "x": 8,
-                        "y": 12
-                      },
-                      {
-                        "x": 2,
-                        "y": 12
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\img\\player\\player4.png",
-                  "points": [
-                    {
-                      "name": "Indicator",
-                      "x": 6,
-                      "y": 0
-                    },
-                    {
-                      "name": "Smoke",
-                      "x": 6,
-                      "y": 10
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 6,
-                    "y": 6
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 2,
-                        "y": 3
-                      },
-                      {
-                        "x": 8,
-                        "y": 3
-                      },
-                      {
-                        "x": 8,
-                        "y": 12
-                      },
-                      {
-                        "x": 2,
-                        "y": 12
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\img\\player\\player1.png",
-                  "points": [
-                    {
-                      "name": "Indicator",
-                      "x": 6,
-                      "y": 0
-                    },
-                    {
-                      "name": "Smoke",
-                      "x": 6,
-                      "y": 10
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 6,
-                    "y": 6
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 2,
-                        "y": 3
-                      },
-                      {
-                        "x": 8,
-                        "y": 3
-                      },
-                      {
-                        "x": 8,
-                        "y": 12
-                      },
-                      {
-                        "x": 2,
-                        "y": 12
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\img\\player\\player4.png",
-                  "points": [
-                    {
-                      "name": "Indicator",
-                      "x": 6,
-                      "y": 0
-                    },
-                    {
-                      "name": "Smoke",
-                      "x": 6,
-                      "y": 10
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 6,
-                    "y": 6
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 2,
-                        "y": 3
-                      },
-                      {
-                        "x": 8,
-                        "y": 3
-                      },
-                      {
-                        "x": 8,
-                        "y": 12
-                      },
-                      {
-                        "x": 2,
-                        "y": 12
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\img\\player\\player1.png",
-                  "points": [
-                    {
-                      "name": "Indicator",
-                      "x": 6,
-                      "y": 0
-                    },
-                    {
-                      "name": "Smoke",
-                      "x": 6,
-                      "y": 10
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 6,
-                    "y": 6
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 2,
-                        "y": 3
-                      },
-                      {
-                        "x": 8,
-                        "y": 3
-                      },
-                      {
-                        "x": 8,
-                        "y": 12
-                      },
-                      {
-                        "x": 2,
-                        "y": 12
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\img\\player\\player1.png",
-                  "points": [
-                    {
-                      "name": "Indicator",
-                      "x": 6,
-                      "y": 0
-                    },
-                    {
-                      "name": "Smoke",
-                      "x": 6,
-                      "y": 10
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 6,
-                    "y": 6
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 2,
-                        "y": 3
-                      },
-                      {
-                        "x": 8,
-                        "y": 3
-                      },
-                      {
-                        "x": 8,
-                        "y": 12
-                      },
-                      {
-                        "x": 2,
-                        "y": 12
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\img\\player\\player7.png",
-                  "points": [
-                    {
-                      "name": "Indicator",
-                      "x": 6,
-                      "y": 0
-                    },
-                    {
-                      "name": "Smoke",
-                      "x": 6,
-                      "y": 10
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 6,
-                    "y": 6
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 2,
-                        "y": 3
-                      },
-                      {
-                        "x": 8,
-                        "y": 3
-                      },
-                      {
-                        "x": 8,
-                        "y": 12
-                      },
-                      {
-                        "x": 2,
-                        "y": 12
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\img\\player\\player1.png",
-                  "points": [
-                    {
-                      "name": "Indicator",
-                      "x": 6,
-                      "y": 0
-                    },
-                    {
-                      "name": "Smoke",
-                      "x": 6,
-                      "y": 10
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 6,
-                    "y": 6
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 2,
-                        "y": 3
-                      },
-                      {
-                        "x": 8,
-                        "y": 3
-                      },
-                      {
-                        "x": 8,
-                        "y": 12
-                      },
-                      {
-                        "x": 2,
-                        "y": 12
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\img\\player\\player1.png",
-                  "points": [
-                    {
-                      "name": "Indicator",
-                      "x": 6,
-                      "y": 0
-                    },
-                    {
-                      "name": "Smoke",
-                      "x": 6,
-                      "y": 10
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 6,
-                    "y": 6
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 2,
-                        "y": 3
-                      },
-                      {
-                        "x": 8,
-                        "y": 3
-                      },
-                      {
-                        "x": 8,
-                        "y": 12
-                      },
-                      {
-                        "x": 2,
-                        "y": 12
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\img\\player\\player7.png",
-                  "points": [
-                    {
-                      "name": "Indicator",
-                      "x": 6,
-                      "y": 0
-                    },
-                    {
-                      "name": "Smoke",
-                      "x": 6,
-                      "y": 10
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 6,
-                    "y": 6
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 2,
-                        "y": 3
-                      },
-                      {
-                        "x": 8,
-                        "y": 3
-                      },
-                      {
-                        "x": 8,
-                        "y": 12
-                      },
-                      {
-                        "x": 2,
-                        "y": 12
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "run",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.10000000149011612,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\img\\player\\player10.png",
-                  "points": [
-                    {
-                      "name": "Indicator",
-                      "x": 6,
-                      "y": 0
-                    },
-                    {
-                      "name": "Smoke",
-                      "x": 6,
-                      "y": 10
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 6,
-                    "y": 6
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 2,
-                        "y": 3
-                      },
-                      {
-                        "x": 8,
-                        "y": 3
-                      },
-                      {
-                        "x": 8,
-                        "y": 12
-                      },
-                      {
-                        "x": 2,
-                        "y": 12
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\img\\player\\player1.png",
-                  "points": [
-                    {
-                      "name": "Indicator",
-                      "x": 6,
-                      "y": 0
-                    },
-                    {
-                      "name": "Smoke",
-                      "x": 6,
-                      "y": 10
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 6,
-                    "y": 6
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 2,
-                        "y": 3
-                      },
-                      {
-                        "x": 8,
-                        "y": 3
-                      },
-                      {
-                        "x": 8,
-                        "y": 12
-                      },
-                      {
-                        "x": 2,
-                        "y": 12
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "crouch",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\img\\player\\player12.png",
-                  "points": [
-                    {
-                      "name": "Indicator",
-                      "x": 6,
-                      "y": 0
-                    },
-                    {
-                      "name": "Smoke",
-                      "x": 6,
-                      "y": 10
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 6,
-                    "y": 6
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 2,
-                        "y": 3
-                      },
-                      {
-                        "x": 8,
-                        "y": 3
-                      },
-                      {
-                        "x": 8,
-                        "y": 12
-                      },
-                      {
-                        "x": 2,
-                        "y": 12
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "jump",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.07500000298023224,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\img\\player\\player15.png",
-                  "points": [
-                    {
-                      "name": "Indicator",
-                      "x": 6,
-                      "y": 0
-                    },
-                    {
-                      "name": "Smoke",
-                      "x": 6,
-                      "y": 10
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 6,
-                    "y": 6
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 2,
-                        "y": 3
-                      },
-                      {
-                        "x": 8,
-                        "y": 3
-                      },
-                      {
-                        "x": 8,
-                        "y": 12
-                      },
-                      {
-                        "x": 2,
-                        "y": 12
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\img\\player\\player16.png",
-                  "points": [
-                    {
-                      "name": "Indicator",
-                      "x": 6,
-                      "y": 0
-                    },
-                    {
-                      "name": "Smoke",
-                      "x": 6,
-                      "y": 10
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 6,
-                    "y": 6
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 2,
-                        "y": 3
-                      },
-                      {
-                        "x": 8,
-                        "y": 3
-                      },
-                      {
-                        "x": 8,
-                        "y": 12
-                      },
-                      {
-                        "x": 2,
-                        "y": 12
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "fall",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.07500000298023224,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\img\\player\\player13.png",
-                  "points": [
-                    {
-                      "name": "Indicator",
-                      "x": 6,
-                      "y": 0
-                    },
-                    {
-                      "name": "Smoke",
-                      "x": 6,
-                      "y": 10
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 6,
-                    "y": 6
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 2,
-                        "y": 3
-                      },
-                      {
-                        "x": 8,
-                        "y": 3
-                      },
-                      {
-                        "x": 8,
-                        "y": 12
-                      },
-                      {
-                        "x": 2,
-                        "y": 12
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\img\\player\\player14.png",
-                  "points": [
-                    {
-                      "name": "Indicator",
-                      "x": 6,
-                      "y": 0
-                    },
-                    {
-                      "name": "Smoke",
-                      "x": 6,
-                      "y": 10
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 6,
-                    "y": 6
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 2,
-                        "y": 3
-                      },
-                      {
-                        "x": 8,
-                        "y": 3
-                      },
-                      {
-                        "x": 8,
-                        "y": 12
-                      },
-                      {
-                        "x": 2,
-                        "y": 12
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "die",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\img\\player\\player17.png",
-                  "points": [
-                    {
-                      "name": "Indicator",
-                      "x": 6,
-                      "y": 0
-                    },
-                    {
-                      "name": "Smoke",
-                      "x": 6,
-                      "y": 10
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 6,
-                    "y": 6
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 2,
-                        "y": 3
-                      },
-                      {
-                        "x": 8,
-                        "y": 3
-                      },
-                      {
-                        "x": 8,
-                        "y": 12
-                      },
-                      {
-                        "x": 2,
-                        "y": 12
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "player_indicator",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Tween",
-          "type": "Tween::TweenBehavior"
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\img\\player\\other\\indicator.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 3,
-                    "y": 3
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 2,
-                    "y": 2
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "additive": true,
-      "destroyWhenNoParticles": false,
-      "emitterAngleA": 0,
-      "emitterAngleB": 10,
-      "emitterForceMax": 0,
-      "emitterForceMin": 0,
-      "flow": 20,
-      "maxParticleNb": 0,
-      "name": "player_smoke1",
-      "particleAlpha1": 255,
-      "particleAlpha2": 0,
-      "particleAlphaRandomness1": 0,
-      "particleAlphaRandomness2": 0,
-      "particleAngle1": 25,
-      "particleAngle2": 20,
-      "particleAngleRandomness1": 0,
-      "particleAngleRandomness2": 0,
-      "particleBlue1": 255,
-      "particleBlue2": 104,
-      "particleGravityX": 5,
-      "particleGravityY": 5,
-      "particleGreen1": 255,
-      "particleGreen2": 97,
-      "particleLifeTimeMax": 0.30000001192092896,
-      "particleLifeTimeMin": 0.125,
-      "particleRed1": 255,
-      "particleRed2": 95,
-      "particleSize1": 100,
-      "particleSize2": 0,
-      "particleSizeRandomness1": 0,
-      "particleSizeRandomness2": 0,
-      "rendererParam1": 2,
-      "rendererParam2": 1,
-      "rendererType": "Point",
-      "tags": "",
-      "tank": -1,
-      "textureParticleName": "",
-      "type": "ParticleSystem::ParticleEmitter",
-      "zoneRadius": 2,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "name": "cursor",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\img\\ui\\cursor.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 2,
-                    "y": 2
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "height": 32,
-      "name": "tile1",
-      "tags": "",
-      "texture": "assets\\img\\tiles\\tetra\\ground.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior",
-          "canBeGrabbed": true,
-          "platformType": "NormalPlatform",
-          "yGrabOffset": 0
-        }
-      ]
-    },
-    {
-      "bottomMargin": 16,
-      "height": 32,
-      "leftMargin": 16,
-      "name": "cam_mask",
-      "rightMargin": 16,
-      "tags": "",
-      "texture": "assets\\img\\misc\\cam_mask.png",
-      "tiled": false,
-      "topMargin": 16,
-      "type": "PanelSpriteObject::PanelSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "bottomMargin": 8,
-      "height": 192,
-      "leftMargin": 16,
-      "name": "die_fg",
-      "rightMargin": 16,
-      "tags": "",
-      "texture": "assets\\img\\ui\\die_fg.png",
-      "tiled": true,
-      "topMargin": 8,
-      "type": "PanelSpriteObject::PanelSprite",
-      "width": 256,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Tween",
-          "type": "Tween::TweenBehavior"
-        }
-      ]
-    }
-  ],
-  "objectsGroups": [
-    {
-      "name": "player_components",
-      "objects": [
-        {
-          "name": "player"
-        },
-        {
-          "name": "player_indicator"
-        },
-        {
-          "name": "player_smoke1"
-        }
-      ]
-    }
-  ],
+  "objects": [],
+  "objectsGroups": [],
   "variables": [
     {
-      "name": "input",
-      "type": "structure",
-      "children": [
-        {
-          "name": "a",
-          "type": "string",
-          "value": "LShift"
-        },
-        {
-          "name": "b",
-          "type": "string",
-          "value": "x"
-        },
-        {
-          "name": "cancel",
-          "type": "string",
-          "value": "Escape"
-        },
-        {
-          "name": "debug",
-          "type": "string",
-          "value": "F1"
-        },
-        {
-          "name": "down",
-          "type": "string",
-          "value": "Down"
-        },
-        {
-          "name": "left",
-          "type": "string",
-          "value": "Left"
-        },
-        {
-          "name": "right",
-          "type": "string",
-          "value": "Right"
-        },
-        {
-          "name": "select",
-          "type": "string",
-          "value": "Space"
-        },
-        {
-          "name": "up",
-          "type": "string",
-          "value": "Up"
-        }
-      ]
-    },
-    {
-      "name": "windowSize",
+      "folded": true,
+      "name": "SunflowerAmount",
       "type": "number",
-      "value": 3
+      "value": 0
     },
     {
-      "name": "fps",
+      "folded": true,
+      "name": "SpeedRunTimer",
       "type": "number",
-      "value": 69
+      "value": 0
     },
     {
-      "name": "debug",
+      "folded": true,
+      "name": "DebugMode",
       "type": "boolean",
       "value": false
     },
     {
       "folded": true,
-      "name": "inGame",
+      "name": "isPaused",
       "type": "boolean",
       "value": false
+    },
+    {
+      "folded": true,
+      "name": "WindowSize",
+      "type": "number",
+      "value": 3
+    },
+    {
+      "folded": true,
+      "name": "CameraLerp",
+      "type": "number",
+      "value": 0.15
+    },
+    {
+      "name": "Volume",
+      "type": "structure",
+      "children": [
+        {
+          "name": "Music",
+          "type": "number",
+          "value": 50
+        },
+        {
+          "name": "Sound",
+          "type": "number",
+          "value": 100
+        }
+      ]
     }
   ],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/test"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/menu"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/teststage"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/zone1"
     }
   ],
   "externalEvents": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/playerold"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/startup"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/tiles"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/ui"
+      "referenceTo": "/externalEvents/main"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/player"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/ingamemisccode"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/ingamedebugging"
     }
   ],
   "eventsFunctionsExtensions": [
@@ -2212,19 +774,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/roombasedcameramovement"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/repeateveryxseconds"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/sinemovement"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/fps"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -2232,17 +782,25 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/smoothcamera"
+      "referenceTo": "/eventsFunctionsExtensions/advancedjump"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/advancedjump"
+      "referenceTo": "/eventsFunctionsExtensions/discordrichpresence"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/treehouseglobalinputmenager"
     }
   ],
   "externalLayouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalLayouts/ui"
+      "referenceTo": "/externalLayouts/hud"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/backgrounds"
     }
   ],
   "externalSourceFiles": []

@@ -1,0 +1,546 @@
+{
+  "associatedLayout": "test",
+  "lastChangeTimeStamp": 0,
+  "name": "InGameMiscCode",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+          },
+          "parameters": [
+            "",
+            "\"HUD\"",
+            "0",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+          },
+          "parameters": [
+            "",
+            "\"BackGrounds\"",
+            "0",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"SpeedrunTimerMSec\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"SpeedrunTimerSec\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "colorB": 74,
+      "colorG": 74,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Background Stuff",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "BackgroundLayers",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "BackgroundLayers",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 42,
+      "colorG": 87,
+      "colorR": 139,
+      "creationTime": 0,
+      "name": "HUD Stuff",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::SetText"
+              },
+              "parameters": [
+                "HUD_SunflowerAmount",
+                "=",
+                "ToString(GlobalVariable(SunflowerAmount))"
+              ]
+            },
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::SetText"
+              },
+              "parameters": [
+                "HUD_SpeedrunTimer",
+                "=",
+                "ToString(HUD_Fade.Variable(size))"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "HUD_SpeedrunTimer",
+                "=",
+                "HUD_Background.PointX(\"speedrunCounter\")",
+                "=",
+                "HUD_Background.PointY(\"speedrunCounter\")"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "HUD_SunflowerAmount",
+                "=",
+                "HUD_Background.PointX(\"sunflowerCounter\")",
+                "=",
+                "HUD_Background.PointY(\"sunflowerCounter\")"
+              ]
+            },
+            {
+              "type": {
+                "value": "PrimitiveDrawing::FillColor"
+              },
+              "parameters": [
+                "HUD_Fade",
+                "\"255;255;224\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PrimitiveDrawing::Star"
+              },
+              "parameters": [
+                "HUD_Fade",
+                "144",
+                "88",
+                "3",
+                "HUD_Fade.Variable(size) + 1.5",
+                "HUD_Fade.Variable(size) + 1.5",
+                "TimeFromStart() * 100 * sin(360)"
+              ]
+            },
+            {
+              "type": {
+                "value": "PrimitiveDrawing::FillColor"
+              },
+              "parameters": [
+                "HUD_Fade",
+                "\"17;15;43\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PrimitiveDrawing::Star"
+              },
+              "parameters": [
+                "HUD_Fade",
+                "144",
+                "88",
+                "3",
+                "HUD_Fade.Variable(size)",
+                "HUD_Fade.Variable(size)",
+                "TimeFromStart() * 100 * sin(360)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "HUD_Fade",
+                "size",
+                "<=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "HUD_Fade"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "HUD_Fade",
+                "size",
+                ">",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "HUD_Fade",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "TreehouseGlobalInputMenager::CheckInput"
+              },
+              "parameters": [
+                "",
+                "\"A\"",
+                "\"Left\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "TreehouseGlobalInputMenager::CheckInput"
+              },
+              "parameters": [
+                "",
+                "\"B\"",
+                "\"Left\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TreehouseGlobalInputMenager::CheckInput"
+              },
+              "parameters": [
+                "",
+                "\"Start\"",
+                "\"Left\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ToggleGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "isPaused"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "isPaused",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\snd\\fx\\igm\\pause.wav",
+                    "1",
+                    "GlobalVariable(Volume.Sound)",
+                    "GlobalVariable(Volume.Sound)",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::AddObjectPositionYTween"
+                  },
+                  "parameters": [
+                    "HUD",
+                    "Tween",
+                    "\"HUDPauseHideIN\"",
+                    "-32",
+                    "\"linear\"",
+                    "250",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::AddObjectVariableTween"
+                  },
+                  "parameters": [
+                    "HUD_Fade",
+                    "Tween",
+                    "\"HUDTransitionIn\"",
+                    "size",
+                    "0",
+                    "80",
+                    "\"linear\"",
+                    "250",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeLayerTimeScale"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Active\"",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeLayerTimeScale"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Player\"",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeLayerTimeScale"
+                  },
+                  "parameters": [
+                    "",
+                    "\"\"",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "isPaused",
+                    "False"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\snd\\fx\\igm\\unpause.wav",
+                    "1",
+                    "GlobalVariable(Volume.Sound)",
+                    "GlobalVariable(Volume.Sound)",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::AddObjectPositionYTween"
+                  },
+                  "parameters": [
+                    "HUD",
+                    "Tween",
+                    "\"HUDPauseHideIN\"",
+                    "16",
+                    "\"linear\"",
+                    "250",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::AddObjectVariableTween"
+                  },
+                  "parameters": [
+                    "HUD_Fade",
+                    "Tween",
+                    "\"HUDTransitionOut\"",
+                    "size",
+                    "HUD_Fade.Variable(size)",
+                    "0",
+                    "\"linear\"",
+                    "250",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeLayerTimeScale"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Active\"",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeLayerTimeScale"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Player\"",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeLayerTimeScale"
+                  },
+                  "parameters": [
+                    "",
+                    "\"\"",
+                    "1"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 134,
+      "colorG": 233,
+      "colorR": 184,
+      "creationTime": 0,
+      "name": "Actives",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "colorB": 35,
+          "colorG": 166,
+          "colorR": 245,
+          "creationTime": 0,
+          "name": "Collectables",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "IGM_GoldSunflower",
+                    "=",
+                    "IGM_GoldSunflower.Variable(collected)"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        }
+      ],
+      "parameters": []
+    }
+  ]
+}
